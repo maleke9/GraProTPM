@@ -1,5 +1,4 @@
-curve = load('curve.mat');
-
+load('curve.mat');
 figure
 
 subplot(4,2,[1 2]);
@@ -33,7 +32,9 @@ Vrl = vrl(1);
 Vrr = vrr(1);
 Rrl = (w)./((vrr./vrl)-1);
 B = 2.65;
-Rfl = (B.^2+Rrl.^2).^0.5
+Rfl = (B.^2+Rrl.^2).^0.5;
 plot(tv,Rfl);
+vfl1 = vfl(1);
+
 
 
