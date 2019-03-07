@@ -26,14 +26,13 @@ subplot(4,2,[7 8]);
 plot(tv, sw);
 title('steering wheel signal');
 
-%Berechnung Kurvenradius bei Zeitpunkt allen Zeitpunkten
+%Berechnung Kurvenradius bei Zeitpunkt 0
 %Rrl = (w+1)/(Vrr/Vrl)
 w = 1.53;
-Vrl = vrl(1); 
+Vrl = vrl(1);
 Vrr = vrr(1);
-Rrl = (w)./((vrr./vrl)-1);
+Rrl = (w+1)/(Vrr/Vrl);
 B = 2.65;
-Rfl = (B.^2+Rrl.^2).^0.5
-plot(tv,Rfl);
+Rfl = (B^2+Rrl^2)^0.5
 
 
