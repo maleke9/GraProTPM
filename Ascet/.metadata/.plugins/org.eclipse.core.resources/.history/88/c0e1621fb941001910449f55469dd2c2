@@ -1,0 +1,18 @@
+package components.lib;
+
+class Integrator {
+	real memory;
+	characteristic real kI = 4.0;
+
+	@generated("blockdiagram")
+	public void integrate(real in dtVal, real in inputVal) {
+// Main/integrate 1
+		memory = ((inputVal * kI * dtVal) + memory);
+	}
+
+	@generated("blockdiagram")
+	public real outVal() {
+// Main/outVal oo
+		return memory;
+	}
+}

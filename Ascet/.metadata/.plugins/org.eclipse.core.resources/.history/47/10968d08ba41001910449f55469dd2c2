@@ -1,0 +1,21 @@
+classType components.lib.Integrator
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin active
+	}
+	simpleIdentifier memory at (381, 95) {
+		label at (0, -1)
+		inPin outPin sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier kI at (41, 105) {
+		label at (0, -1)
+		outPin sequenceCall {
+			inPin
+		}
+	}
+	multiplication at (281, 106) {
+		inPin inPin inPin outPin
+	}
+}

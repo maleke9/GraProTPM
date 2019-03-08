@@ -1,0 +1,10 @@
+package components.lib;
+
+class Integrator {
+	real memory;
+	characteristic real kI = 4.0;
+
+	@generated("blockdiagram")
+	public void calc() {
+	}
+}

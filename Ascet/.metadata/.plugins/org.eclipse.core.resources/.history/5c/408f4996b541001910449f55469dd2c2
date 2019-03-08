@@ -1,0 +1,10 @@
+package components.lib;
+
+class Integrator {
+	@generated("blockdiagram")
+	public void calc() {
+	}
+	public void integrate(real dtVal,real inputVal){
+		
+	}
+}
