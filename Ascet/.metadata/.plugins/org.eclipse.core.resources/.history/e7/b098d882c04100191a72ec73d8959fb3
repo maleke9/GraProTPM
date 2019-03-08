@@ -1,0 +1,99 @@
+classType components.lib.average
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin
+	}
+	methodBody avgOn4Inputs {
+		outPin active {
+			connection_1
+		}
+	}
+	return at (481, 185) {
+		label at (0, 0)
+		inPin connection_11 {
+			bendpoints (50, 0), (50, -10)
+		}
+		sequenceCall {
+			inPin connection_1
+		}
+	}
+	methodArgumentIdentifier avgOn4Inputs.arg1 at (41, 115) {
+		label at (0, -1)
+		outPin {
+			connection_4
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier avgOn4Inputs.arg2 at (41, 155) {
+		label at (0, -1)
+		outPin {
+			connection_5
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier avgOn4Inputs.arg3 at (41, 195) {
+		label at (0, -1)
+		outPin {
+			connection_2
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier avgOn4Inputs.arg4 at (41, 235) {
+		label at (0, -1)
+		outPin {
+			connection_3
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	addition at (201, 136) {
+		inPin connection_4 {
+			bendpoints (60, 0), (60, 20)
+		}
+		inPin connection_5
+		outPin {
+			connection_6
+		}
+	}
+	addition at (201, 216) {
+		inPin connection_2 {
+			bendpoints (60, 0), (60, 20)
+		}
+		inPin connection_3
+		outPin {
+			connection_7
+		}
+	}
+	addition at (281, 176) {
+		inPin connection_6 {
+			bendpoints (20, 0), (20, 30)
+		}
+		inPin connection_7 {
+			bendpoints (20, 0), (20, -30)
+		}
+		outPin {
+			connection_9
+		}
+	}
+	division at (341, 186) {
+		inPin connection_9
+		inPin connection_10 {
+			bendpoints (20, 0), (20, -70)
+		}
+		outPin {
+			connection_11
+		}
+	}
+	literal Numeric "4.0" at (251, 273) size (49, 0) {
+		outPin {
+			connection_10
+		}
+	}
+}

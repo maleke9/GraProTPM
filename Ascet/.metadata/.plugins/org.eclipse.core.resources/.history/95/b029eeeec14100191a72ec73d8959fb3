@@ -1,0 +1,20 @@
+package components.lib;
+
+import assertLib.Assert;
+
+import components.lib.average;
+import components.Component;
+
+static class AverageTest {
+	average test;
+	/*
+	 * check slope is under 20%
+	 */
+	@Test
+	public void testavgOn4Inputs() {
+		
+			Assert.assertTrue(test.avgOn4Inputs(1.0,1.0,1.0,1.0) == 1.0);
+			Assert.assertFalse(test.avgOn4Inputs(1.0,2.0,3.0,4.0) == 20.0)
+
+}
+}

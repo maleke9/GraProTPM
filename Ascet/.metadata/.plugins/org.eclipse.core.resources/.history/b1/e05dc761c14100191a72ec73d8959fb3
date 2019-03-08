@@ -1,0 +1,28 @@
+package components.lib;
+
+import assertLib.Assert;
+
+import components.lib.average;
+import components.Component;
+
+
+type Table is table real -> real;
+
+static class SlopeTests {
+	characteristic real TrackSize = 1000.0;
+	//real newPosition;
+	real s = 0.0;
+	real ds = 0.0;
+	real dh = 0.0;
+	Component Comp;
+	real totaldist = 0.0 ;
+	/*
+	 * check slope is under 20%
+	 */
+	@Test
+	public void testavgOn4Inputs() {
+		
+			Assert.assertTrue(average.avgOn4Inputs(1.0,1.0,1.0,1.0) <= 0.2);
+			Assert.assertTrue(dh/ds >= -0.2);		
+
+}
