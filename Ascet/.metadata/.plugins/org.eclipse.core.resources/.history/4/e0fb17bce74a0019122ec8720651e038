@@ -1,0 +1,6 @@
+classType components.lib.average
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin active
+	}
+}

@@ -1,0 +1,20 @@
+classType components.lib.diffCheck
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin active {
+			connection_1
+		}
+	}
+	methodArgumentIdentifier calc.arg at (91, 45) {
+		label at (0, -1)
+		outPin sequenceCall {
+			inPin
+		}
+	}
+	return at (391, 55) {
+		label at (0, 0)
+		inPin sequenceCall {
+			inPin connection_1
+		}
+	}
+}

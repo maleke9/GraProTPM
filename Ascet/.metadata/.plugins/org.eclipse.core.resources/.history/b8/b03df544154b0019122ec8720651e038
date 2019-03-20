@@ -1,0 +1,12 @@
+package components;
+
+
+// A *static* class is pre-instantiated 
+static class MainClass {
+    // Create an instance of Tutorial_StateMachine
+    SoundOutStateMaschine sMachine;
+    public void mainProgram() {
+  		sMachine.soundOutStateMaschineStatemachineTrigger;
+    }
+    
+}

@@ -1,0 +1,18 @@
+package components;
+@generated("statemachine")
+type SoundOutStateMaschineStatemachineStates is enum {
+	StateA
+};
+
+class SoundOutStateMaschine {
+	@generated("statemachine")
+	public void soundOutStateMaschineStatemachineTrigger() triggers SoundOutStateMaschineStatemachine;
+
+	@generatedStateMachine
+	statemachine SoundOutStateMaschineStatemachine using SoundOutStateMaschineStatemachineStates {
+		start StateA;
+
+		state StateA {
+		}
+	}
+}

@@ -1,0 +1,36 @@
+package components;
+@generated("statemachine")
+type SoundOutStateMaschineStatemachineStates is enum {
+	StateA,
+	wait
+};
+
+class SoundOutStateMaschine {
+	@set
+	private real deltaTime;
+
+	@generated("statemachine")
+	@error("statemachine")
+	public void soundOutStateMaschineStatemachineTrigger() triggers SoundOutStateMaschineStatemachine;
+
+	@generatedStateMachine
+	statemachine SoundOutStateMaschineStatemachine using SoundOutStateMaschineStatemachineStates {
+		start StateA;
+
+		state StateA {
+			entry {
+				time = 0;
+				vfr = 1;
+			}
+			static {
+				time = time + deltaTime;
+			}
+		}
+
+		state wait {
+		}
+
+		state wait {
+		}
+	}
+}

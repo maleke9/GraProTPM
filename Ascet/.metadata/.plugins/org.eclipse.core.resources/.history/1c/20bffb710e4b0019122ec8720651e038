@@ -1,0 +1,14 @@
+package components;
+import components.SoundOut;
+
+class Example {
+    SoundOut sound;
+
+    
+    @thread
+	public void mainMethod() {
+		sound.soundOut();
+
+	}
+
+}

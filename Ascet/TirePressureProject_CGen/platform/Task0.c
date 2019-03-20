@@ -12,9 +12,7 @@
 #include "etasVpOs.h"
 
 /* BEGIN process declarations */
-extern void components_lib_IntegratorTest_Automatic_calc(void);
-extern void components_lib_IntegratorTest_Automatic_integrate(void);
-extern void components_lib_IntegratorTest_Automatic_outVal(void);
+extern void components_lib_statemaschine_Automatic_calc(void);
 /* END process declarations */
 
 /* support for task monitoring */
@@ -36,9 +34,7 @@ TASK(Task0)
 	/* optional support for XCP hooks */
 	XCP_STIM_Task0
 	/* BEGIN process execution */
-	components_lib_IntegratorTest_Automatic_calc();
-	components_lib_IntegratorTest_Automatic_integrate();
-	components_lib_IntegratorTest_Automatic_outVal();
+	components_lib_statemaschine_Automatic_calc();
 	/* END process execution */
 	/* optional support for XCP hooks */
 	XCP_DAQ_Task0

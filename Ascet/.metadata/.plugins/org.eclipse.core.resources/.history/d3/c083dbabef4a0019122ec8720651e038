@@ -1,0 +1,19 @@
+package components.lib;
+
+class diffCheck {
+	@generated("blockdiagram")
+	public boolean calc(real in arg) {
+	}
+
+	@generated("blockdiagram")
+	public boolean calc_2(real in arg1) {
+	}
+
+	@generated("blockdiagram")
+	public boolean calc_3(real in arg) {
+	}
+
+	@generated("blockdiagram")
+	public boolean calc_4(real in arg) {
+	}
+}

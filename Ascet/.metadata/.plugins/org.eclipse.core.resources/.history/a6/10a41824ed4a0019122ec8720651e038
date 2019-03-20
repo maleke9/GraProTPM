@@ -1,0 +1,7 @@
+package components.lib;
+
+class percentCompare {
+	@generated("blockdiagram")
+	public real calc(real in value, real in avg) {
+	}
+}

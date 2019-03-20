@@ -1,0 +1,24 @@
+package components;
+import components.lib.average;
+import components.lib.Integrator;
+
+static class Component
+reads veloCar.vfl
+writes veloCar.avgVelCar {
+	average average_instance;
+	@dT
+	public real deltatime = 0.0;
+	Integrator Integrator_instance;
+	Integrator Integrator_instance1;
+	Integrator Integrator_instance2;
+	Integrator Integrator_instance3;
+
+	@generated("blockdiagram")
+	public void calc() {
+		Integrator_instance.integrate(veloCar.vfl, deltatime); // Main/calc 1
+		Integrator_instance1.integrate(veloCar.vfl, deltatime); // Main/calc 2
+		Integrator_instance2.integrate(veloCar.vfl, deltatime); // Main/calc 3
+		Integrator_instance3.integrate(veloCar.vfl, deltatime); // Main/calc 4
+		veloCar.avgVelCar = average_instance.calc(Integrator_instance.outVal(), Integrator_instance1.outVal(), Integrator_instance2.outVal(), Integrator_instance3.outVal()); // Main/calc 5
+	}
+}

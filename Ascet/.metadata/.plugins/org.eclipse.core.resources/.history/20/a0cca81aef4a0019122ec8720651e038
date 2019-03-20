@@ -1,0 +1,51 @@
+classType components.lib.percentCompare
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin active {
+			connection_1
+		}
+	}
+	methodArgumentIdentifier calc.value at (71, 105) {
+		label at (0, -1)
+		outPin {
+			connection_4
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier calc.avg at (71, 145) {
+		label at (0, -1)
+		outPin {
+			connection_7, connection_5
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	return at (391, 135) {
+		label at (0, 0)
+		inPin connection_8
+		sequenceCall {
+			inPin connection_1
+		}
+	}
+	subtraction at (191, 116) {
+		inPin connection_4 {
+			bendpoints (80, 0)
+		}
+		inPin connection_5 {
+			bendpoints (80, 0)
+		}
+		outPin {
+			connection_6
+		}
+	}
+	division at (281, 126) {
+		inPin connection_6
+		inPin connection_7
+		outPin {
+			connection_8
+		}
+	}
+}
