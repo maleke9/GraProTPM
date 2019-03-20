@@ -1,0 +1,6 @@
+classType components.lib.statemaschine
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin active
+	}
+}

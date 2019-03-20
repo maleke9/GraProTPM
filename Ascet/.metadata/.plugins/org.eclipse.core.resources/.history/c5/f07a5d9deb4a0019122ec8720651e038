@@ -1,0 +1,155 @@
+classType components.Component
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin active {
+			connection_22, connection_24, connection_26, connection_28, connection_34
+		}
+	}
+	simpleIdentifier components.veloCar.vfl at (21, 85) {
+		label at (0, -1)
+		outPin {
+			connection_23
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.veloCar.vfl at (21, 145) {
+		label at (0, -1)
+		outPin {
+			connection_25
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.veloCar.vfl at (21, 205) {
+		label at (0, -1)
+		outPin {
+			connection_27
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.veloCar.vfl at (21, 265) {
+		label at (0, -1)
+		outPin {
+			connection_29
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	complexIdentifier average_instance at (361, 81) size (18, 22) {
+		label at (0, 1)
+		methodCall components.lib.average.calc {
+			argumentPin arg at (left, 1) connection_30
+			argumentPin arg_2 at (left, 7) connection_31
+			argumentPin arg_3 at (left, 13) connection_32
+			argumentPin arg_4 at (left, 18) connection_33
+			returnPin at (right, 0) {
+				connection_35
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	simpleIdentifier components.veloCar.avgVelCar at (601, 85) {
+		label at (0, -1)
+		inPin connection_35
+		sequenceCall {
+			inPin connection_34
+		}
+	}
+	complexIdentifier Integrator_instance at (141, 81) size (14, 4) {
+		label at (0, 1)
+		methodCall components.lib.Integrator.integrate {
+			argumentPin inputVal at (left, 0) connection_23
+			argumentPin dtVal at (left, 2) connection_21 {
+				bendpoints (30, 0), (30, -200)
+			}
+			sequenceCall at (-70, -30) {
+				inPin connection_22
+			}
+		}
+		methodCall components.lib.Integrator.outVal {
+			returnPin at (right, 1) {
+				connection_30
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	complexIdentifier Integrator_instance1 at (141, 141) size (14, 4) {
+		label at (0, 1)
+		methodCall components.lib.Integrator.integrate {
+			argumentPin inputVal at (left, 0) connection_25
+			argumentPin dtVal at (left, 2) connection_20 {
+				bendpoints (30, 0), (30, -140)
+			}
+			sequenceCall at (-70, -30) {
+				inPin connection_24
+			}
+		}
+		methodCall components.lib.Integrator.outVal {
+			returnPin at (right, 1) {
+				connection_31
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	complexIdentifier Integrator_instance2 at (141, 201) size (14, 4) {
+		label at (0, 1)
+		methodCall components.lib.Integrator.integrate {
+			argumentPin inputVal at (left, 0) connection_27
+			argumentPin dtVal at (left, 2) connection_19 {
+				bendpoints (30, 0), (30, -80)
+			}
+			sequenceCall at (-70, -30) {
+				inPin connection_26
+			}
+		}
+		methodCall components.lib.Integrator.outVal {
+			returnPin at (right, 1) {
+				connection_32
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	complexIdentifier Integrator_instance3 at (141, 261) size (14, 4) {
+		label at (0, 1)
+		methodCall components.lib.Integrator.integrate {
+			argumentPin inputVal at (left, 0) connection_29
+			argumentPin dtVal at (left, 1) connection_18 {
+				bendpoints (30, 0), (30, -30)
+			}
+			sequenceCall at (-70, -30) {
+				inPin connection_28
+			}
+		}
+		methodCall components.lib.Integrator.outVal {
+			returnPin at (right, 0) {
+				connection_33
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	simpleIdentifier deltatime at (11, 305) {
+		label at (0, -1)
+		inPin outPin {
+			connection_19, connection_20, connection_21, connection_18
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+}

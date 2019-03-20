@@ -1,0 +1,8 @@
+package components;
+
+class SoundOutStateMaschine {
+}
+
+type SoundOutStateMaschineStatemachineStates is enum {
+	StateA
+};

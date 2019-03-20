@@ -4,12 +4,9 @@ static class IntegratorTest {
 	Integrator tester;
 	characteristic real integrate_inputVal = 0.0;
 	characteristic real integrate_dtVal = 0.0;
-	real outVal_return;
+	real outVal_return = 0.0;
 
-	@thread
-	public void calc() {
-		tester.calc();
-	}
+
 
 	@thread
 	public void integrate() {

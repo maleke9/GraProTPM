@@ -1,0 +1,328 @@
+classType components.Component
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin active {
+			connection_22, connection_38, connection_40, connection_42, connection_44, connection_46, connection_48, connection_50, connection_53, connection_62, connection_64, connection_66, connection_68
+		}
+	}
+	simpleIdentifier components.veloCar.vfl at (21, 85) {
+		label at (0, -1)
+		outPin {
+			connection_23
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	complexIdentifier average_instance at (361, 81) size (18, 22) {
+		label at (0, 1)
+		methodCall components.lib.average.calc {
+			argumentPin arg at (left, 1) connection_30
+			argumentPin arg_2 at (left, 7) connection_31
+			argumentPin arg_3 at (left, 13) connection_32
+			argumentPin arg_4 at (left, 19) connection_33
+			returnPin at (right, 0) {
+				connection_54
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	complexIdentifier Integrator_instance at (141, 81) size (14, 4) {
+		label at (0, 1)
+		methodCall components.lib.Integrator.integrate {
+			argumentPin inputVal at (left, 0) connection_23
+			argumentPin dtVal at (left, 2) connection_21 {
+				bendpoints (30, 0), (30, -200)
+			}
+			sequenceCall at (-70, -30) {
+				inPin connection_22
+			}
+		}
+		methodCall components.lib.Integrator.outVal {
+			returnPin at (right, 1) {
+				connection_39
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	complexIdentifier Integrator_instance1 at (141, 141) size (14, 4) {
+		label at (0, 1)
+		methodCall components.lib.Integrator.integrate {
+			argumentPin inputVal at (left, 0) connection_47
+			argumentPin dtVal at (left, 2) connection_20 {
+				bendpoints (30, 0), (30, -140)
+			}
+			sequenceCall at (-70, -30) {
+				inPin connection_46
+			}
+		}
+		methodCall components.lib.Integrator.outVal {
+			returnPin at (right, 1) {
+				connection_41
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	complexIdentifier Integrator_instance2 at (141, 201) size (14, 4) {
+		label at (0, 1)
+		methodCall components.lib.Integrator.integrate {
+			argumentPin inputVal at (left, 0) connection_49
+			argumentPin dtVal at (left, 2) connection_19 {
+				bendpoints (30, 0), (30, -80)
+			}
+			sequenceCall at (-70, -30) {
+				inPin connection_48
+			}
+		}
+		methodCall components.lib.Integrator.outVal {
+			returnPin at (right, 1) {
+				connection_43
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	complexIdentifier Integrator_instance3 at (141, 261) size (14, 4) {
+		label at (0, 1)
+		methodCall components.lib.Integrator.integrate {
+			argumentPin inputVal at (left, 0) connection_51
+			argumentPin dtVal at (left, 2) connection_18 {
+				bendpoints (30, 0), (30, -20)
+			}
+			sequenceCall at (-70, -30) {
+				inPin connection_50
+			}
+		}
+		methodCall components.lib.Integrator.outVal {
+			returnPin at (right, 1) {
+				connection_45
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	simpleIdentifier deltatime at (11, 305) {
+		label at (0, -1)
+		inPin outPin {
+			connection_19, connection_20, connection_21, connection_18
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.distanceCar.sfl at (301, 95) {
+		label at (0, -1)
+		inPin connection_39
+		outPin {
+			connection_30
+		}
+		sequenceCall {
+			inPin connection_38
+		}
+	}
+	simpleIdentifier components.distanceCar.sfr at (301, 155) {
+		label at (0, -1)
+		inPin connection_41
+		outPin {
+			connection_31
+		}
+		sequenceCall {
+			inPin connection_40
+		}
+	}
+	simpleIdentifier components.distanceCar.srl at (301, 215) {
+		label at (0, -1)
+		inPin connection_43
+		outPin {
+			connection_32
+		}
+		sequenceCall {
+			inPin connection_42
+		}
+	}
+	simpleIdentifier components.distanceCar.srr at (301, 275) {
+		label at (0, -1)
+		inPin connection_45
+		outPin {
+			connection_33
+		}
+		sequenceCall {
+			inPin connection_44
+		}
+	}
+	simpleIdentifier components.veloCar.vfr at (21, 145) {
+		label at (0, -1)
+		outPin {
+			connection_47
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.veloCar.vrl at (21, 205) {
+		label at (0, -1)
+		outPin {
+			connection_49
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.veloCar.vrr at (21, 265) {
+		label at (0, -1)
+		outPin {
+			connection_51
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	complexIdentifier percentCompare_instance at (141, 351) size (14, 3) {
+		label at (0, 1)
+		methodCall components.lib.percentCompare.calc {
+			argumentPin value at (left, 0) connection_52
+			argumentPin avg at (left, 1) connection_55 {
+				bendpoints (50, 0), (50, -250)
+			}
+			returnPin at (right, 1) {
+				connection_63
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	complexIdentifier percentCompare_instance1 at (141, 401) size (14, 3) {
+		label at (0, 1)
+		methodCall components.lib.percentCompare.calc {
+			argumentPin value at (left, 0) connection_59
+			argumentPin avg at (left, 1) connection_56 {
+				bendpoints (50, 0), (50, -200)
+			}
+			returnPin at (right, 0) {
+				connection_65
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	complexIdentifier percentCompare_instance2 at (141, 451) size (14, 3) {
+		label at (0, 1)
+		methodCall components.lib.percentCompare.calc {
+			argumentPin value at (left, 0) connection_60
+			argumentPin avg at (left, 1) connection_57 {
+				bendpoints (50, 0), (50, -150)
+			}
+			returnPin at (right, 0) {
+				connection_67
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	complexIdentifier percentCompare_instance3 at (141, 501) size (14, 3) {
+		label at (0, 1)
+		methodCall components.lib.percentCompare.calc {
+			argumentPin value at (left, 0) connection_61
+			argumentPin avg at (left, 1) connection_58 {
+				bendpoints (50, 0), (50, -100)
+			}
+			returnPin at (right, 0) {
+				connection_69
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	simpleIdentifier components.distanceCar.sfl at (51, 355) {
+		label at (0, -1)
+		inPin outPin {
+			connection_52
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.distanceCar.avgDistanceCar at (571, 85) {
+		label at (0, -1)
+		inPin connection_54
+		outPin sequenceCall {
+			inPin connection_53
+		}
+	}
+	simpleIdentifier components.distanceCar.avgDistanceCar at (11, 615) {
+		label at (0, -1)
+		inPin outPin {
+			connection_56, connection_57, connection_58, connection_55
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.distanceCar.sfr at (51, 405) {
+		label at (0, -1)
+		inPin outPin {
+			connection_59
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.distanceCar.srl at (51, 455) {
+		label at (0, -1)
+		inPin outPin {
+			connection_60
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.distanceCar.srr at (51, 505) {
+		label at (0, -1)
+		inPin outPin {
+			connection_61
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.diffWheel.diffFl at (321, 365) {
+		label at (0, -1)
+		inPin connection_63
+		outPin sequenceCall {
+			inPin connection_62
+		}
+	}
+	simpleIdentifier components.diffWheel.diffFr at (321, 405) {
+		label at (0, -1)
+		inPin connection_65
+		outPin sequenceCall {
+			inPin connection_64
+		}
+	}
+	simpleIdentifier components.diffWheel.diffRl at (321, 455) {
+		label at (0, -1)
+		inPin connection_67
+		outPin sequenceCall {
+			inPin connection_66
+		}
+	}
+	simpleIdentifier components.diffWheel.diffRr at (321, 505) {
+		label at (0, -1)
+		inPin connection_69
+		outPin sequenceCall {
+			inPin connection_68
+		}
+	}
+}

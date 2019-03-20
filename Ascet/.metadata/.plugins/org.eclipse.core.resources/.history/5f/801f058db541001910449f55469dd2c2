@@ -1,7 +1,0 @@
-package components.lib;
-
-class Integrator {
-	@generated("blockdiagram")
-	public void calc() {
-	}
-}

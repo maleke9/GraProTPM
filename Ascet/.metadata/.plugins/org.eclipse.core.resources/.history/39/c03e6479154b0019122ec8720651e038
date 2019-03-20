@@ -1,0 +1,15 @@
+application {
+	class components.lib.IntegratorTest
+	class components.lib.diffCheck
+	class components.Component
+	class components.Example
+}
+schedule {
+	startup {
+	}
+	shutdown {
+	}
+	task Task0 priority 0 period 10ms delay 0ms {
+		process components.Example.mainMethod
+	}
+}

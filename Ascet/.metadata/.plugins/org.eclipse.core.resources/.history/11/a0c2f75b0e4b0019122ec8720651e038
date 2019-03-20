@@ -1,0 +1,15 @@
+package components;
+import components.SoundOut;
+
+static class Example {
+    SoundOut sound;
+
+    
+    @thread
+	public void mainMethod() {
+		status = bits.getBit(bitPackedVariable, 3);
+		status = bits8.getBit(bitPackedVariable, 3);
+		status = bits16.getBit(bitPackedVariable, 3);
+	}
+
+}
