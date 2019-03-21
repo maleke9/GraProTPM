@@ -5,7 +5,7 @@
 // Build level is extended
 // "Project is 'conf'"
 // "Last edited 'unknown'"
-// "File generated 'Thu Mar 21 14:54:12 2019'"
+// "File generated 'Thu Mar 21 15:17:02 2019'"
 // "Target variant 'MinGW'"
 #define OS_SUPPORTED
 #define RTA_OSEK

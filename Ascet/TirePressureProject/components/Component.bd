@@ -2,10 +2,10 @@ classType components.Component
 blockdiagramSpecification Main {
 	methodBody calc {
 		outPin active {
-			connection_38, connection_40, connection_42, connection_44, connection_46, connection_48, connection_50, connection_53, connection_62, connection_64, connection_66, connection_68, connection_74, connection_76, connection_78, connection_80, connection_86, connection_90, connection_94
+			connection_38, connection_40, connection_42, connection_44, connection_53, connection_62, connection_64, connection_66, connection_68, connection_74, connection_76, connection_78, connection_80, connection_86, connection_90, connection_94, connection_126, connection_129, connection_132
 		}
 	}
-	simpleIdentifier components.veloCar.vfl at (-149, 115) {
+	simpleIdentifier components.veloCar.vfl at (-279, 105) {
 		label at (0, -1)
 		outPin {
 			connection_93
@@ -33,7 +33,7 @@ blockdiagramSpecification Main {
 		label at (0, 1)
 		methodCall components.lib.Integrator.integrate {
 			argumentPin inputVal at (left, 0) connection_95 {
-				bendpoints (10, 0)
+				bendpoints (330, 0)
 			}
 			argumentPin dtVal at (left, 2) connection_21 {
 				bendpoints (30, 0), (30, -200)
@@ -54,12 +54,12 @@ blockdiagramSpecification Main {
 	complexIdentifier Integrator_instance1 at (141, 141) size (14, 4) {
 		label at (0, 1)
 		methodCall components.lib.Integrator.integrate {
-			argumentPin inputVal at (left, 0) connection_47
+			argumentPin inputVal at (left, 0) connection_127
 			argumentPin dtVal at (left, 2) connection_20 {
 				bendpoints (30, 0), (30, -140)
 			}
 			sequenceCall at (-70, -30) {
-				inPin connection_46
+				inPin connection_126
 			}
 		}
 		methodCall components.lib.Integrator.outVal {
@@ -74,12 +74,14 @@ blockdiagramSpecification Main {
 	complexIdentifier Integrator_instance2 at (141, 201) size (14, 4) {
 		label at (0, 1)
 		methodCall components.lib.Integrator.integrate {
-			argumentPin inputVal at (left, 0) connection_49
+			argumentPin inputVal at (left, 0) connection_130 {
+				bendpoints (160, 0), (160, -70)
+			}
 			argumentPin dtVal at (left, 2) connection_19 {
 				bendpoints (30, 0), (30, -80)
 			}
 			sequenceCall at (-70, -30) {
-				inPin connection_48
+				inPin connection_129
 			}
 		}
 		methodCall components.lib.Integrator.outVal {
@@ -94,12 +96,14 @@ blockdiagramSpecification Main {
 	complexIdentifier Integrator_instance3 at (141, 261) size (14, 4) {
 		label at (0, 1)
 		methodCall components.lib.Integrator.integrate {
-			argumentPin inputVal at (left, 0) connection_51
+			argumentPin inputVal at (left, 0) connection_133 {
+				bendpoints (160, 0), (160, -120)
+			}
 			argumentPin dtVal at (left, 2) connection_18 {
 				bendpoints (30, 0), (30, -20)
 			}
 			sequenceCall at (-70, -30) {
-				inPin connection_50
+				inPin connection_132
 			}
 		}
 		methodCall components.lib.Integrator.outVal {
@@ -160,28 +164,10 @@ blockdiagramSpecification Main {
 			inPin connection_44
 		}
 	}
-	simpleIdentifier components.veloCar.vfr at (21, 145) {
+	simpleIdentifier components.veloCar.vfr at (-259, 175) {
 		label at (0, -1)
 		outPin {
-			connection_47
-		}
-		sequenceCall {
-			inPin
-		}
-	}
-	simpleIdentifier components.veloCar.vrl at (21, 205) {
-		label at (0, -1)
-		outPin {
-			connection_49
-		}
-		sequenceCall {
-			inPin
-		}
-	}
-	simpleIdentifier components.veloCar.vrr at (21, 265) {
-		label at (0, -1)
-		outPin {
-			connection_51
+			connection_125
 		}
 		sequenceCall {
 			inPin
@@ -466,56 +452,205 @@ blockdiagramSpecification Main {
 			inPin connection_90
 		}
 	}
-	addition at (81, 56) {
-		inPin connection_96 {
-			bendpoints (10, 0), (10, 30)
+	addition at (-239, 56) {
+		inPin connection_106 {
+			bendpoints (20, 0), (20, 40)
 		}
-		inPin connection_93 {
-			bendpoints (180, 0), (180, -40)
-		}
+		inPin connection_93
 		outPin {
 			connection_95
 		}
 	}
-	literal Numeric "2" at (-159, 13) size (49, 0) {
+	literal Numeric "2" at (-479, 13) size (49, 0) {
 		outPin {
 			connection_97
 		}
 	}
-	literal Numeric "17" at (-159, 43) size (49, 0) {
+	literal Numeric "17" at (-479, 43) size (49, 0) {
 		outPin {
 			connection_99
 		}
 	}
-	literal Numeric "7" at (-159, 23) size (49, 0) {
+	literal Numeric "7" at (-479, 23) size (49, 0) {
 		outPin {
 			connection_98
 		}
 	}
-	literal Numeric "0.01" at (-159, 63) size (49, 0) {
+	literal Numeric "0.01" at (-499, 493) size (49, 0) {
 		outPin {
-			connection_100
+			connection_112, connection_113, connection_114, connection_100
 		}
 	}
-	complexIdentifier NoiseGenerator_instance at (-89, 21) size (14, 8) {
+	complexIdentifier NoiseGenerator_instance at (-419, 11) size (14, 8) {
 		label at (0, 1)
 		methodCall components.lib.NoiseGenerator.calc {
-			argumentPin argA at (left, 0) connection_97 {
-				bendpoints (10, 0)
+			argumentPin argA at (left, 0) connection_97
+			argumentPin argC at (left, 2) connection_98
+			argumentPin argM at (left, 3) connection_99
+			argumentPin scaleGain at (left, 4) connection_100 {
+				bendpoints (10, 0), (10, -440)
 			}
-			argumentPin argC at (left, 2) connection_98 {
-				bendpoints (10, 0)
-			}
-			argumentPin argM at (left, 3) connection_99 {
-				bendpoints (10, 0)
-			}
-			argumentPin scaleGain at (left, 4) connection_100
 			returnPin at (right, 0) {
-				connection_96
+				connection_106
 			}
 			sequenceCall {
 				inPin
 			}
+		}
+	}
+	complexIdentifier NoiseGenerator_instance_2 at (-419, 131) size (14, 8) {
+		label at (0, 1)
+		methodCall components.lib.NoiseGenerator.calc {
+			argumentPin argA at (left, 0) connection_110 {
+				bendpoints (20, 0), (20, 20)
+			}
+			argumentPin argC at (left, 1) connection_111 {
+				bendpoints (10, 0), (10, 10)
+			}
+			argumentPin argM at (left, 2) connection_109
+			argumentPin scaleGain at (left, 3) connection_112 {
+				bendpoints (10, 0), (10, -330)
+			}
+			returnPin at (right, 0) {
+				connection_123
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	complexIdentifier NoiseGenerator_instance_3 at (-419, 241) size (14, 8) {
+		label at (0, 1)
+		methodCall components.lib.NoiseGenerator.calc {
+			argumentPin argA at (left, 0) connection_118 {
+				bendpoints (20, 0), (20, -10)
+			}
+			argumentPin argC at (left, 1) connection_119 {
+				bendpoints (20, 0), (20, -20)
+			}
+			argumentPin argM at (left, 2) connection_120 {
+				bendpoints (10, 0), (10, -30)
+			}
+			argumentPin scaleGain at (left, 3) connection_113 {
+				bendpoints (10, 0), (10, -220)
+			}
+			returnPin at (right, 0) {
+				connection_122
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	complexIdentifier NoiseGenerator_instance_4 at (-419, 351) size (14, 8) {
+		label at (0, 1)
+		methodCall components.lib.NoiseGenerator.calc {
+			argumentPin argA at (left, 0) connection_115 {
+				bendpoints (20, 0), (20, 10)
+			}
+			argumentPin argC at (left, 1) connection_116
+			argumentPin argM at (left, 2) connection_117 {
+				bendpoints (20, 0), (20, -10)
+			}
+			argumentPin scaleGain at (left, 3) connection_114 {
+				bendpoints (10, 0), (10, -110)
+			}
+			returnPin at (right, 0) {
+				connection_121
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	literal Numeric "17" at (-499, 153) size (49, 0) {
+		outPin {
+			connection_109
+		}
+	}
+	literal Numeric "3" at (-519, 113) size (49, 0) {
+		outPin {
+			connection_110
+		}
+	}
+	literal Numeric "9" at (-509, 133) size (49, 0) {
+		outPin {
+			connection_111
+		}
+	}
+	literal Numeric "7" at (-509, 273) size (49, 0) {
+		outPin {
+			connection_119
+		}
+	}
+	literal Numeric "2" at (-509, 253) size (49, 0) {
+		outPin {
+			connection_118
+		}
+	}
+	literal Numeric "17" at (-499, 293) size (49, 0) {
+		outPin {
+			connection_120
+		}
+	}
+	literal Numeric "11" at (-509, 363) size (49, 0) {
+		outPin {
+			connection_116
+		}
+	}
+	literal Numeric "4" at (-509, 343) size (49, 0) {
+		outPin {
+			connection_115
+		}
+	}
+	literal Numeric "17" at (-509, 383) size (49, 0) {
+		outPin {
+			connection_117
+		}
+	}
+	addition at (-219, 136) {
+		inPin connection_123
+		inPin connection_125
+		outPin {
+			connection_127
+		}
+	}
+	addition at (-229, 266) {
+		inPin connection_122 {
+			bendpoints (20, 0), (20, 20)
+		}
+		inPin connection_128 {
+			bendpoints (10, 0)
+		}
+		outPin {
+			connection_130
+		}
+	}
+	addition at (-219, 376) {
+		inPin connection_121 {
+			bendpoints (30, 0), (30, 20)
+		}
+		inPin connection_131
+		outPin {
+			connection_133
+		}
+	}
+	simpleIdentifier components.veloCar.vrl at (-279, 295) {
+		label at (0, -1)
+		outPin {
+			connection_128
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.veloCar.vrr at (-279, 395) {
+		label at (0, -1)
+		outPin {
+			connection_131
+		}
+		sequenceCall {
+			inPin
 		}
 	}
 }

@@ -26,6 +26,9 @@ struct L1_components_Component_Automatic_Obj {
 	struct L1_components_lib_Integrator_Automatic_Obj* Integrator_instance3;
 	struct L1_components_lib_NoiseGenerator_Automatic_Obj* TirePressureProject_instance;
 	struct L1_components_lib_NoiseGenerator_Automatic_Obj* NoiseGenerator_instance;
+	struct L1_components_lib_NoiseGenerator_Automatic_Obj* NoiseGenerator_instance_2;
+	struct L1_components_lib_NoiseGenerator_Automatic_Obj* NoiseGenerator_instance_3;
+	struct L1_components_lib_NoiseGenerator_Automatic_Obj* NoiseGenerator_instance_4;
 	scalarWrapper_Obj* vflA;
 	scalarWrapper_Obj* vflC;
 	scalarWrapper_Obj* vflM;
