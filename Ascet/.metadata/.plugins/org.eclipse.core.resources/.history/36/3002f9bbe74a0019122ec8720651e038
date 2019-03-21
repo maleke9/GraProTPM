@@ -1,7 +1,0 @@
-package components.lib;
-
-class average {
-	@generated("blockdiagram")
-	public real calc(real in arg, real in arg_2, real in arg_3, real in arg_4) {
-	}
-}

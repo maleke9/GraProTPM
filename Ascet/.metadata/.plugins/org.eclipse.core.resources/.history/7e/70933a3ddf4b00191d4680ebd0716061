@@ -1,0 +1,13 @@
+package components.lib;
+
+type myInt is integer 1 .. 10000;
+class TirePressureProject {
+	
+	myInt mem=1;
+	
+
+	@generated("blockdiagram")
+	public real calc(myInt in arg, myInt in arg_2, myInt in arg_3, real in scaleGain) {
+		mem = (((mem * arg) + arg_2) % arg_3); // Main/calc 1
+	}
+}

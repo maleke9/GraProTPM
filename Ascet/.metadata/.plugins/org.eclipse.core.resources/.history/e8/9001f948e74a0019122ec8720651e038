@@ -1,7 +1,0 @@
-package components.lib;
-
-class average {
-	@generated("blockdiagram")
-	public void calc() {
-	}
-}

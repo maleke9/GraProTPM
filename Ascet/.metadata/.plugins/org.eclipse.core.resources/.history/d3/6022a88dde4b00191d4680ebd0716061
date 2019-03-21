@@ -1,0 +1,7 @@
+package components.lib;
+type myInt is integer 1 .. 10000;
+class TirePressureProject {
+	@generated("blockdiagram")
+	public real calc(myInt in arg, real in arg_2, real in arg_3, real in arg_4) {
+	}
+}

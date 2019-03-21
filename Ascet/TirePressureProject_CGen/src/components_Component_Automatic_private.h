@@ -31,6 +31,20 @@
 #define percentCompare_instance2_REF &(components_Component.percentCompare_instance2)
 #define percentCompare_instance3_VAL components_Component.percentCompare_instance3
 #define percentCompare_instance3_REF &(components_Component.percentCompare_instance3)
+#define vflA_VAL components_Component_CAL_MEM.vflA
+#define vflC_VAL components_Component_CAL_MEM.vflC
+#define vflM_VAL components_Component_CAL_MEM.vflM
+#define gain_VAL components_Component_CAL_MEM.gain
+#define TirePressureProject_instance_VAL components_Component.TirePressureProject_instance
+#define TirePressureProject_instance_REF &(components_Component.TirePressureProject_instance)
+#define NoiseGenerator_instance_VAL components_Component.NoiseGenerator_instance
+#define NoiseGenerator_instance_REF &(components_Component.NoiseGenerator_instance)
+#define NoiseGenerator_instance_2_VAL components_Component.NoiseGenerator_instance_2
+#define NoiseGenerator_instance_2_REF &(components_Component.NoiseGenerator_instance_2)
+#define NoiseGenerator_instance_3_VAL components_Component.NoiseGenerator_instance_3
+#define NoiseGenerator_instance_3_REF &(components_Component.NoiseGenerator_instance_3)
+#define NoiseGenerator_instance_4_VAL components_Component.NoiseGenerator_instance_4
+#define NoiseGenerator_instance_4_REF &(components_Component.NoiseGenerator_instance_4)
 /* ****************************************************************************
  * END: DEFINITION OF ACCESS MACROS
  ******************************************************************************/

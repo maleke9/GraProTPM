@@ -1,6 +1,0 @@
-classType components.lib.diffCheck
-blockdiagramSpecification Main {
-	methodBody calc {
-		outPin active
-	}
-}

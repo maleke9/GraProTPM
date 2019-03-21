@@ -1,0 +1,107 @@
+classType components.lib.TirePressureProject
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin active {
+			connection_11, connection_16
+		}
+	}
+	methodArgumentIdentifier calc.arg at (61, 35) {
+		label at (0, -1)
+		outPin {
+			connection_4
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier calc.arg_2 at (61, 65) {
+		label at (0, -1)
+		outPin {
+			connection_6
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier calc.arg_3 at (61, 95) {
+		label at (0, -1)
+		outPin {
+			connection_7
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier calc.scaleGain at (371, 145) {
+		label at (0, -1)
+		outPin {
+			connection_13
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier mem at (51, 5) {
+		label at (0, -1)
+		inPin outPin {
+			connection_3
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	multiplication at (151, 16) {
+		inPin connection_3 {
+			bendpoints (50, 0)
+		}
+		inPin connection_4
+		outPin {
+			connection_5
+		}
+	}
+	addition at (221, 56) {
+		inPin connection_5 {
+			bendpoints (10, 0), (10, 30)
+		}
+		inPin connection_6 {
+			bendpoints (60, 0), (60, 10)
+		}
+		outPin {
+			connection_8
+		}
+	}
+	modulo at (311, 76) {
+		inPin connection_8 {
+			bendpoints (10, 0), (10, 10)
+		}
+		inPin connection_7
+		outPin {
+			connection_12
+		}
+	}
+	simpleIdentifier mem at (371, 85) {
+		label at (0, -1)
+		inPin connection_12
+		outPin {
+			connection_15
+		}
+		sequenceCall {
+			inPin connection_11
+		}
+	}
+	multiplication at (461, 96) {
+		inPin connection_15 {
+			bendpoints (20, 0), (20, 10)
+		}
+		inPin connection_13 {
+			bendpoints (20, 0), (20, -30)
+		}
+		outPin
+	}
+	return at (491, 105) {
+		label at (0, 0)
+		inPin sequenceCall {
+			inPin connection_16
+		}
+	}
+}

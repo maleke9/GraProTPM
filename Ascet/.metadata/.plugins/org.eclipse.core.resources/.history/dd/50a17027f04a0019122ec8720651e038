@@ -1,9 +1,0 @@
-package components.lib;
-
-class diffCheck {
-	public real border = 0.005
-	@generated("blockdiagram")
-	@error("blockdiagram")
-	public boolean calc(real in arg) {
-	}
-}

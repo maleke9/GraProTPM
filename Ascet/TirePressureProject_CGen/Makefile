@@ -29,6 +29,7 @@ OBJECTS=$(P_OBJ)/components_Component_Automatic.o\
     $(P_OBJ)/components_lib_diffCheck_Automatic.o\
     $(P_OBJ)/components_lib_IntegratorTest_Automatic.o\
     $(P_OBJ)/components_lib_Integrator_Automatic.o\
+    $(P_OBJ)/components_lib_NoiseGenerator_Automatic.o\
     $(P_OBJ)/components_lib_percentCompare_Automatic.o\
     $(P_OBJ)/components_lib_statemaschine_Automatic.o\
     $(P_OBJ)/components_pressureError_Automatic.o\
@@ -40,6 +41,7 @@ OBJECTS=$(P_OBJ)/components_Component_Automatic.o\
     $(P_OBJ)/components_lib_Integrator_Automatic.l1.o\
     $(P_OBJ)/components_lib_diffCheck_Automatic.l1.o\
     $(P_OBJ)/components_Component_Automatic.l1.o\
+    $(P_OBJ)/components_lib_NoiseGenerator_Automatic.l1.o\
     $(P_OBJ)/components_veloCar_Automatic.l1.o\
     $(P_OBJ)/components_distanceCar_Automatic.l1.o\
     $(P_OBJ)/components_diffWheel_Automatic.l1.o\
@@ -114,6 +116,10 @@ $(P_OBJ)/components_lib_Integrator_Automatic.o: src/components_lib_Integrator_Au
 	echo compiling [C:\Users\User\Desktop\GraProTPM\Ascet\TirePressureProject_CGen\src\components_lib_Integrator_Automatic.c]
 	@$(CC) $(call CC_INPUT,$(P_OBJ)/components_lib_Integrator_Automatic.o src/components_lib_Integrator_Automatic.c)
 
+$(P_OBJ)/components_lib_NoiseGenerator_Automatic.o: src/components_lib_NoiseGenerator_Automatic.c $(P_OBJ) $(CC_OPTIONS_FILE)
+	echo compiling [C:\Users\User\Desktop\GraProTPM\Ascet\TirePressureProject_CGen\src\components_lib_NoiseGenerator_Automatic.c]
+	@$(CC) $(call CC_INPUT,$(P_OBJ)/components_lib_NoiseGenerator_Automatic.o src/components_lib_NoiseGenerator_Automatic.c)
+
 $(P_OBJ)/components_lib_percentCompare_Automatic.o: src/components_lib_percentCompare_Automatic.c $(P_OBJ) $(CC_OPTIONS_FILE)
 	echo compiling [C:\Users\User\Desktop\GraProTPM\Ascet\TirePressureProject_CGen\src\components_lib_percentCompare_Automatic.c]
 	@$(CC) $(call CC_INPUT,$(P_OBJ)/components_lib_percentCompare_Automatic.o src/components_lib_percentCompare_Automatic.c)
@@ -157,6 +163,10 @@ $(P_OBJ)/components_lib_diffCheck_Automatic.l1.o: l1/components_lib_diffCheck_Au
 $(P_OBJ)/components_Component_Automatic.l1.o: l1/components_Component_Automatic.l1.c $(P_OBJ) $(CC_OPTIONS_FILE)
 	echo compiling [C:\Users\User\Desktop\GraProTPM\Ascet\TirePressureProject_CGen\l1\components_Component_Automatic.l1.c]
 	@$(CC) $(call CC_INPUT,$(P_OBJ)/components_Component_Automatic.l1.o l1/components_Component_Automatic.l1.c)
+
+$(P_OBJ)/components_lib_NoiseGenerator_Automatic.l1.o: l1/components_lib_NoiseGenerator_Automatic.l1.c $(P_OBJ) $(CC_OPTIONS_FILE)
+	echo compiling [C:\Users\User\Desktop\GraProTPM\Ascet\TirePressureProject_CGen\l1\components_lib_NoiseGenerator_Automatic.l1.c]
+	@$(CC) $(call CC_INPUT,$(P_OBJ)/components_lib_NoiseGenerator_Automatic.l1.o l1/components_lib_NoiseGenerator_Automatic.l1.c)
 
 $(P_OBJ)/components_veloCar_Automatic.l1.o: l1/components_veloCar_Automatic.l1.c $(P_OBJ) $(CC_OPTIONS_FILE)
 	echo compiling [C:\Users\User\Desktop\GraProTPM\Ascet\TirePressureProject_CGen\l1\components_veloCar_Automatic.l1.c]

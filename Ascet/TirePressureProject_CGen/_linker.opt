@@ -6,6 +6,7 @@ obj/components_lib_average_Automatic.o
 obj/components_lib_diffCheck_Automatic.o
 obj/components_lib_IntegratorTest_Automatic.o
 obj/components_lib_Integrator_Automatic.o
+obj/components_lib_NoiseGenerator_Automatic.o
 obj/components_lib_percentCompare_Automatic.o
 obj/components_lib_statemaschine_Automatic.o
 obj/components_pressureError_Automatic.o
@@ -17,6 +18,7 @@ obj/components_lib_IntegratorTest_Automatic.l1.o
 obj/components_lib_Integrator_Automatic.l1.o
 obj/components_lib_diffCheck_Automatic.l1.o
 obj/components_Component_Automatic.l1.o
+obj/components_lib_NoiseGenerator_Automatic.l1.o
 obj/components_veloCar_Automatic.l1.o
 obj/components_distanceCar_Automatic.l1.o
 obj/components_diffWheel_Automatic.l1.o

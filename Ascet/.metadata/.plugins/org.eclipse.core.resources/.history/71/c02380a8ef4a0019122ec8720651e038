@@ -1,7 +1,0 @@
-package components.lib;
-
-class diffCheck {
-	@generated("blockdiagram")
-	public void calc() {
-	}
-}

@@ -1,7 +1,0 @@
-package components.lib;
-
-class statemaschine {
-	@generated("blockdiagram")
-	public void calc() {
-	}
-}
