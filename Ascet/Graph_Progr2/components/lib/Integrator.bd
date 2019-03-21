@@ -1,0 +1,80 @@
+classType components.lib.Integrator
+blockdiagramSpecification Main {
+	methodBody integrate {
+		outPin {
+			connection_6
+		}
+	}
+	methodBody outVal {
+		outPin active {
+			connection_8
+		}
+	}
+	simpleIdentifier memory at (361, 145) {
+		label at (0, -1)
+		inPin connection_7
+		outPin {
+			connection_9, connection_5
+		}
+		sequenceCall {
+			inPin connection_6
+		}
+	}
+	simpleIdentifier kI at (91, 145) {
+		label at (0, -21)
+		outPin {
+			connection_1
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier integrate.inputVal at (91, 85) {
+		label at (0, -1)
+		outPin {
+			connection_2
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier integrate.dtVal at (91, 185) {
+		label at (0, -1)
+		outPin {
+			connection_3
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	multiplication at (261, 136) {
+		inPin connection_2 {
+			bendpoints (60, 0), (60, 50)
+		}
+		inPin connection_1
+		inPin connection_3 {
+			bendpoints (60, 0), (60, -30)
+		}
+		outPin {
+			connection_4
+		}
+	}
+	addition at (311, 136) {
+		inPin connection_4 {
+			bendpoints (0, -10)
+		}
+		inPin connection_5 {
+			bendpoints (0, 50), (-100, 50)
+		}
+		outPin {
+			connection_7
+		}
+	}
+	return at (441, 145) {
+		label at (0, 0)
+		inPin connection_9
+		sequenceCall {
+			inPin connection_8
+		}
+	}
+}

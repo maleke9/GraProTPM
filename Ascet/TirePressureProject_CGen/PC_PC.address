@@ -4,291 +4,25 @@
 		<SymbolAddress Name="_argc" Type="int" Address="0x00451004" Size="4" Const="False" Pointer="False" />
 		<SymbolAddress Name="_argv" Type="char" Address="0x00451000" Size="4" Const="False" Pointer="True" />
 	</CompilationUnit>
-	<CompilationUnit Name="l1/PC_PC.l1.c">
-		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x00451028" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x0043403C" Size="8" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_PC_PC_ClassHeader" Type="" Address="0x0043402C" Size="16" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_PC_PC_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x0043402C" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_PC_PC_ClassHeader.noOfClassMethods" Type="uint16" Address="0x0043402E" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_PC_PC_ClassHeader.noOfObjectVars" Type="uint16" Address="0x00434030" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_PC_PC_ClassHeader.noOfClassVars" Type="uint16" Address="0x00434032" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_PC_PC_ClassHeader.objectMethods" Type="MethodList" Address="0x00434034" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_PC_PC_ClassHeader.classMethods" Type="MethodList" Address="0x00434038" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_PC_PC_ClassObj" Type="" Address="0x00434000" Size="44" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_PC_PC_ClassObj.objectHeader" Type="" Address="0x00434000" Size="12" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_PC_PC_ClassObj.objectHeader.states" Type="uint32" Address="0x00434000" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_PC_PC_ClassObj.objectHeader.ref" Type="" Address="0x00434004" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_PC_PC_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x00434004" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_PC_PC_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x00434004" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_PC_PC_ClassObj.objectHeader.size" Type="" Address="0x00434008" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_PC_PC_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x00434008" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_PC_PC_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x00434008" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_PC_PC_ClassObj.components_lib_IntegratorTest_Automatic" Type="L1_components_lib_IntegratorTest_Automatic_Obj" Address="0x0043400C" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_PC_PC_ClassObj.components_lib_diffCheck_Automatic" Type="L1_components_lib_diffCheck_Automatic_Obj" Address="0x00434010" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_PC_PC_ClassObj.components_Component_Automatic" Type="L1_components_Component_Automatic_Obj" Address="0x00434014" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_PC_PC_ClassObj.components_veloCar_Automatic" Type="L1_components_veloCar_Automatic_Obj" Address="0x00434018" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_PC_PC_ClassObj.components_distanceCar_Automatic" Type="L1_components_distanceCar_Automatic_Obj" Address="0x0043401C" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_PC_PC_ClassObj.components_diffWheel_Automatic" Type="L1_components_diffWheel_Automatic_Obj" Address="0x00434020" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_PC_PC_ClassObj.components_pressureError_Automatic" Type="L1_components_pressureError_Automatic_Obj" Address="0x00434024" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_PC_PC_ClassObj.components_lib_statemaschine_Automatic" Type="L1_components_lib_statemaschine_Automatic_Obj" Address="0x00434028" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_PC_PCInstance" Type="L1_PC_PC_Obj" Address="0x00451024" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="initialized_PC_PC" Type="bool" Address="0x00451020" Size="4" Const="False" Pointer="False" />
-	</CompilationUnit>
-	<CompilationUnit Name="l1/components_lib_IntegratorTest_Automatic.l1.c">
-		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x00451038" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x00451034" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassHeader" Type="" Address="0x0043406C" Size="16" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x0043406C" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x0043406E" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x00434070" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x00434072" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x00434074" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x00434078" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassObj" Type="" Address="0x00434060" Size="12" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassObj.objectHeader" Type="" Address="0x00434060" Size="12" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x00434060" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x00434064" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x00434064" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x00434064" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassObj.objectHeader.size" Type="" Address="0x00434068" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x00434068" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x00434068" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_IntegratorTest_AutomaticInstance" Type="L1_components_lib_IntegratorTest_Automatic_Obj" Address="0x00451030" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="initialized_components_lib_IntegratorTest_Automatic" Type="bool" Address="0x0045102C" Size="4" Const="False" Pointer="False" />
-	</CompilationUnit>
-	<CompilationUnit Name="l1/components_lib_Integrator_Automatic.l1.c">
-		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x00451044" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x00451040" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassHeader" Type="" Address="0x00434088" Size="16" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x00434088" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x0043408A" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x0043408C" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x0043408E" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x00434090" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x00434094" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassObj" Type="" Address="0x0043407C" Size="12" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassObj.objectHeader" Type="" Address="0x0043407C" Size="12" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x0043407C" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x00434080" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x00434080" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x00434080" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassObj.objectHeader.size" Type="" Address="0x00434084" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x00434084" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x00434084" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="initialized_components_lib_Integrator_Automatic" Type="bool" Address="0x0045103C" Size="4" Const="False" Pointer="False" />
-	</CompilationUnit>
-	<CompilationUnit Name="l1/components_lib_diffCheck_Automatic.l1.c">
-		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x00451054" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x00451050" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassHeader" Type="" Address="0x004340A4" Size="16" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x004340A4" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x004340A6" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x004340A8" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x004340AA" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x004340AC" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x004340B0" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassObj" Type="" Address="0x00434098" Size="12" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassObj.objectHeader" Type="" Address="0x00434098" Size="12" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x00434098" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x0043409C" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x0043409C" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x0043409C" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassObj.objectHeader.size" Type="" Address="0x004340A0" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x004340A0" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x004340A0" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_diffCheck_AutomaticInstance" Type="L1_components_lib_diffCheck_Automatic_Obj" Address="0x0045104C" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="initialized_components_lib_diffCheck_Automatic" Type="bool" Address="0x00451048" Size="4" Const="False" Pointer="False" />
-	</CompilationUnit>
-	<CompilationUnit Name="l1/components_Component_Automatic.l1.c">
-		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x00451064" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x00451060" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_Component_Automatic_ClassHeader" Type="" Address="0x004340C0" Size="16" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_Component_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x004340C0" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_Component_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x004340C2" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_Component_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x004340C4" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_Component_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x004340C6" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_Component_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x004340C8" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_Component_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x004340CC" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_Component_Automatic_ClassObj" Type="" Address="0x004340B4" Size="12" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_Component_Automatic_ClassObj.objectHeader" Type="" Address="0x004340B4" Size="12" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_Component_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x004340B4" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_Component_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x004340B8" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_Component_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x004340B8" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_Component_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x004340B8" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_Component_Automatic_ClassObj.objectHeader.size" Type="" Address="0x004340BC" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_Component_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x004340BC" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_Component_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x004340BC" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_Component_AutomaticInstance" Type="L1_components_Component_Automatic_Obj" Address="0x0045105C" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="initialized_components_Component_Automatic" Type="bool" Address="0x00451058" Size="4" Const="False" Pointer="False" />
-	</CompilationUnit>
-	<CompilationUnit Name="l1/components_veloCar_Automatic.l1.c">
-		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x00451074" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x00451070" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassHeader" Type="" Address="0x004340EC" Size="16" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x004340EC" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x004340EE" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x004340F0" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x004340F2" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x004340F4" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x004340F8" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj" Type="" Address="0x004340D0" Size="28" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.objectHeader" Type="" Address="0x004340D0" Size="12" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x004340D0" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x004340D4" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x004340D4" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x004340D4" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.objectHeader.size" Type="" Address="0x004340D8" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x004340D8" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x004340D8" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.vfl" Type="scalarWrapper_Obj" Address="0x004340DC" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.vfr" Type="scalarWrapper_Obj" Address="0x004340E0" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.vrl" Type="scalarWrapper_Obj" Address="0x004340E4" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.vrr" Type="scalarWrapper_Obj" Address="0x004340E8" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_veloCar_AutomaticInstance" Type="L1_components_veloCar_Automatic_Obj" Address="0x0045106C" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="initialized_components_veloCar_Automatic" Type="bool" Address="0x00451068" Size="4" Const="False" Pointer="False" />
-	</CompilationUnit>
-	<CompilationUnit Name="l1/components_distanceCar_Automatic.l1.c">
-		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x00451084" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x00451080" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassHeader" Type="" Address="0x00434120" Size="16" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x00434120" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x00434122" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x00434124" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x00434126" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x00434128" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x0043412C" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj" Type="" Address="0x00434100" Size="32" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.objectHeader" Type="" Address="0x00434100" Size="12" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x00434100" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x00434104" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x00434104" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x00434104" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.objectHeader.size" Type="" Address="0x00434108" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x00434108" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x00434108" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.sfl" Type="scalarWrapper_Obj" Address="0x0043410C" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.sfr" Type="scalarWrapper_Obj" Address="0x00434110" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.srl" Type="scalarWrapper_Obj" Address="0x00434114" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.srr" Type="scalarWrapper_Obj" Address="0x00434118" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.avgDistanceCar" Type="scalarWrapper_Obj" Address="0x0043411C" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_distanceCar_AutomaticInstance" Type="L1_components_distanceCar_Automatic_Obj" Address="0x0045107C" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="initialized_components_distanceCar_Automatic" Type="bool" Address="0x00451078" Size="4" Const="False" Pointer="False" />
-	</CompilationUnit>
-	<CompilationUnit Name="l1/components_diffWheel_Automatic.l1.c">
-		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x00451094" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x00451090" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassHeader" Type="" Address="0x0043415C" Size="16" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x0043415C" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x0043415E" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x00434160" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x00434162" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x00434164" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x00434168" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj" Type="" Address="0x00434140" Size="28" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.objectHeader" Type="" Address="0x00434140" Size="12" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x00434140" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x00434144" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x00434144" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x00434144" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.objectHeader.size" Type="" Address="0x00434148" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x00434148" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x00434148" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.diffFl" Type="scalarWrapper_Obj" Address="0x0043414C" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.diffFr" Type="scalarWrapper_Obj" Address="0x00434150" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.diffRl" Type="scalarWrapper_Obj" Address="0x00434154" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.diffRr" Type="scalarWrapper_Obj" Address="0x00434158" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_diffWheel_AutomaticInstance" Type="L1_components_diffWheel_Automatic_Obj" Address="0x0045108C" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="initialized_components_diffWheel_Automatic" Type="bool" Address="0x00451088" Size="4" Const="False" Pointer="False" />
-	</CompilationUnit>
-	<CompilationUnit Name="l1/components_pressureError_Automatic.l1.c">
-		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x004510A4" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x004510A0" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassHeader" Type="" Address="0x004341A0" Size="16" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x004341A0" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x004341A2" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x004341A4" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x004341A6" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x004341A8" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x004341AC" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj" Type="" Address="0x00434180" Size="32" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.objectHeader" Type="" Address="0x00434180" Size="12" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x00434180" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x00434184" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x00434184" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x00434184" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.objectHeader.size" Type="" Address="0x00434188" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x00434188" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x00434188" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.errFl" Type="scalarWrapper_Obj" Address="0x0043418C" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.errFr" Type="scalarWrapper_Obj" Address="0x00434190" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.errRl" Type="scalarWrapper_Obj" Address="0x00434194" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.errRr" Type="scalarWrapper_Obj" Address="0x00434198" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.err" Type="scalarWrapper_Obj" Address="0x0043419C" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_pressureError_AutomaticInstance" Type="L1_components_pressureError_Automatic_Obj" Address="0x0045109C" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="initialized_components_pressureError_Automatic" Type="bool" Address="0x00451098" Size="4" Const="False" Pointer="False" />
-	</CompilationUnit>
-	<CompilationUnit Name="l1/components_lib_statemaschine_Automatic.l1.c">
-		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x004510B4" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x004510B0" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassHeader" Type="" Address="0x004341CC" Size="16" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x004341CC" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x004341CE" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x004341D0" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x004341D2" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x004341D4" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x004341D8" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassObj" Type="" Address="0x004341C0" Size="12" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassObj.objectHeader" Type="" Address="0x004341C0" Size="12" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x004341C0" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x004341C4" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x004341C4" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x004341C4" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassObj.objectHeader.size" Type="" Address="0x004341C8" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x004341C8" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x004341C8" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_lib_statemaschine_AutomaticInstance" Type="L1_components_lib_statemaschine_Automatic_Obj" Address="0x004510AC" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="initialized_components_lib_statemaschine_Automatic" Type="bool" Address="0x004510A8" Size="4" Const="False" Pointer="False" />
-	</CompilationUnit>
-	<CompilationUnit Name="l1/components_SoundOutStateMaschine_Automatic.l1.c">
-		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x004510C0" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x004510BC" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassHeader" Type="" Address="0x004341E8" Size="16" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x004341E8" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x004341EA" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x004341EC" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x004341EE" Size="2" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x004341F0" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x004341F4" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassObj" Type="" Address="0x004341DC" Size="12" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassObj.objectHeader" Type="" Address="0x004341DC" Size="12" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x004341DC" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x004341E0" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x004341E0" Size="4" Const="False" Pointer="True" />
-		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x004341E0" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassObj.objectHeader.size" Type="" Address="0x004341E4" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x004341E4" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x004341E4" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="initialized_components_SoundOutStateMaschine_Automatic" Type="bool" Address="0x004510B8" Size="4" Const="False" Pointer="False" />
-	</CompilationUnit>
 	<CompilationUnit Name="src/components_Component_Automatic.c">
-		<SymbolAddress Name="components_Component_CAL_MEM" Type="components_Component_Automatic_CAL_MEM_SUBSTRUCT" Address="0x004341F8" Size="16" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_Component_CAL_MEM.Integrator_instance" Type="components_lib_Integrator_Automatic_CAL_MEM_SUBSTRUCT" Address="0x004341F8" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_Component_CAL_MEM.Integrator_instance.kI" Type="float32" Address="0x004341F8" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_Component_CAL_MEM.Integrator_instance1" Type="components_lib_Integrator_Automatic_CAL_MEM_SUBSTRUCT" Address="0x004341FC" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_Component_CAL_MEM.Integrator_instance1.kI" Type="float32" Address="0x004341FC" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_Component_CAL_MEM.Integrator_instance2" Type="components_lib_Integrator_Automatic_CAL_MEM_SUBSTRUCT" Address="0x00434200" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_Component_CAL_MEM.Integrator_instance2.kI" Type="float32" Address="0x00434200" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_Component_CAL_MEM.Integrator_instance3" Type="components_lib_Integrator_Automatic_CAL_MEM_SUBSTRUCT" Address="0x00434204" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_Component_CAL_MEM.Integrator_instance3.kI" Type="float32" Address="0x00434204" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_Component_RAM" Type="components_Component_Automatic_RAM_SUBSTRUCT" Address="0x004510C4" Size="16" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_Component_RAM.Integrator_instance" Type="components_lib_Integrator_Automatic_RAM_SUBSTRUCT" Address="0x004510C4" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_Component_RAM.Integrator_instance.memory" Type="float32" Address="0x004510C4" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_Component_RAM.Integrator_instance1" Type="components_lib_Integrator_Automatic_RAM_SUBSTRUCT" Address="0x004510C8" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_Component_RAM.Integrator_instance1.memory" Type="float32" Address="0x004510C8" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_Component_RAM.Integrator_instance2" Type="components_lib_Integrator_Automatic_RAM_SUBSTRUCT" Address="0x004510CC" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_Component_RAM.Integrator_instance2.memory" Type="float32" Address="0x004510CC" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_Component_RAM.Integrator_instance3" Type="components_lib_Integrator_Automatic_RAM_SUBSTRUCT" Address="0x004510D0" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_Component_RAM.Integrator_instance3.memory" Type="float32" Address="0x004510D0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Component_CAL_MEM" Type="components_Component_Automatic_CAL_MEM_SUBSTRUCT" Address="0x00434000" Size="16" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Component_CAL_MEM.Integrator_instance" Type="components_lib_Integrator_Automatic_CAL_MEM_SUBSTRUCT" Address="0x00434000" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Component_CAL_MEM.Integrator_instance.kI" Type="float32" Address="0x00434000" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Component_CAL_MEM.Integrator_instance1" Type="components_lib_Integrator_Automatic_CAL_MEM_SUBSTRUCT" Address="0x00434004" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Component_CAL_MEM.Integrator_instance1.kI" Type="float32" Address="0x00434004" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Component_CAL_MEM.Integrator_instance2" Type="components_lib_Integrator_Automatic_CAL_MEM_SUBSTRUCT" Address="0x00434008" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Component_CAL_MEM.Integrator_instance2.kI" Type="float32" Address="0x00434008" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Component_CAL_MEM.Integrator_instance3" Type="components_lib_Integrator_Automatic_CAL_MEM_SUBSTRUCT" Address="0x0043400C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Component_CAL_MEM.Integrator_instance3.kI" Type="float32" Address="0x0043400C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Component_RAM" Type="components_Component_Automatic_RAM_SUBSTRUCT" Address="0x00451020" Size="16" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Component_RAM.Integrator_instance" Type="components_lib_Integrator_Automatic_RAM_SUBSTRUCT" Address="0x00451020" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Component_RAM.Integrator_instance.memory" Type="float32" Address="0x00451020" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Component_RAM.Integrator_instance1" Type="components_lib_Integrator_Automatic_RAM_SUBSTRUCT" Address="0x00451024" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Component_RAM.Integrator_instance1.memory" Type="float32" Address="0x00451024" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Component_RAM.Integrator_instance2" Type="components_lib_Integrator_Automatic_RAM_SUBSTRUCT" Address="0x00451028" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Component_RAM.Integrator_instance2.memory" Type="float32" Address="0x00451028" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Component_RAM.Integrator_instance3" Type="components_lib_Integrator_Automatic_RAM_SUBSTRUCT" Address="0x0045102C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Component_RAM.Integrator_instance3.memory" Type="float32" Address="0x0045102C" Size="4" Const="False" Pointer="False" />
 		<SymbolAddress Name="components_Component" Type="components_Component_Automatic" Address="0x0043B080" Size="32" Const="True" Pointer="False" />
 		<SymbolAddress Name="components_Component.Integrator_instance" Type="components_lib_Integrator_Automatic" Address="0x0043B080" Size="8" Const="True" Pointer="False" />
 		<SymbolAddress Name="components_Component.Integrator_instance.components_lib_Integrator_Automatic_CAL_MEM" Type="components_lib_Integrator_Automatic_CAL_MEM_SUBSTRUCT" Address="0x0043B080" Size="4" Const="True" Pointer="True" />
@@ -304,33 +38,33 @@
 		<SymbolAddress Name="components_Component.Integrator_instance3.components_lib_Integrator_Automatic_RAM" Type="components_lib_Integrator_Automatic_RAM_SUBSTRUCT" Address="0x0043B09C" Size="4" Const="True" Pointer="True" />
 	</CompilationUnit>
 	<CompilationUnit Name="src/components_diffWheel_Automatic.c">
-		<SymbolAddress Name="components_diffWheel_diffFl" Type="float32" Address="0x004510E0" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_diffWheel_diffFr" Type="float32" Address="0x004510DC" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_diffWheel_diffRl" Type="float32" Address="0x004510D8" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_diffWheel_diffRr" Type="float32" Address="0x004510D4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_diffWheel_diffFl" Type="float32" Address="0x0045103C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_diffWheel_diffFr" Type="float32" Address="0x00451038" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_diffWheel_diffRl" Type="float32" Address="0x00451034" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_diffWheel_diffRr" Type="float32" Address="0x00451030" Size="4" Const="False" Pointer="False" />
 	</CompilationUnit>
 	<CompilationUnit Name="src/components_distanceCar_Automatic.c">
-		<SymbolAddress Name="components_distanceCar_avgDistanceCar" Type="float32" Address="0x004510F4" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_distanceCar_sfl" Type="float32" Address="0x004510F0" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_distanceCar_sfr" Type="float32" Address="0x004510EC" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_distanceCar_srl" Type="float32" Address="0x004510E8" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_distanceCar_srr" Type="float32" Address="0x004510E4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_distanceCar_avgDistanceCar" Type="float32" Address="0x00451050" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_distanceCar_sfl" Type="float32" Address="0x0045104C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_distanceCar_sfr" Type="float32" Address="0x00451048" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_distanceCar_srl" Type="float32" Address="0x00451044" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_distanceCar_srr" Type="float32" Address="0x00451040" Size="4" Const="False" Pointer="False" />
 	</CompilationUnit>
 	<CompilationUnit Name="src/components_lib_average_Automatic.c" />
 	<CompilationUnit Name="src/components_lib_diffCheck_Automatic.c">
-		<SymbolAddress Name="components_lib_diffCheck_CAL_MEM" Type="components_lib_diffCheck_Automatic_CAL_MEM_SUBSTRUCT" Address="0x00434208" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_lib_diffCheck_CAL_MEM.border" Type="float32" Address="0x00434208" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_lib_diffCheck_CAL_MEM" Type="components_lib_diffCheck_Automatic_CAL_MEM_SUBSTRUCT" Address="0x00434010" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_lib_diffCheck_CAL_MEM.border" Type="float32" Address="0x00434010" Size="4" Const="False" Pointer="False" />
 	</CompilationUnit>
 	<CompilationUnit Name="src/components_lib_IntegratorTest_Automatic.c">
-		<SymbolAddress Name="components_lib_IntegratorTest_CAL_MEM" Type="components_lib_IntegratorTest_Automatic_CAL_MEM_SUBSTRUCT" Address="0x0043420C" Size="12" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_lib_IntegratorTest_CAL_MEM.integrate_dtVal" Type="float32" Address="0x0043420C" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_lib_IntegratorTest_CAL_MEM.integrate_inputVal" Type="float32" Address="0x00434210" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_lib_IntegratorTest_CAL_MEM.tester" Type="components_lib_Integrator_Automatic_CAL_MEM_SUBSTRUCT" Address="0x00434214" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_lib_IntegratorTest_CAL_MEM.tester.kI" Type="float32" Address="0x00434214" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_lib_IntegratorTest_RAM" Type="components_lib_IntegratorTest_Automatic_RAM_SUBSTRUCT" Address="0x004510F8" Size="8" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_lib_IntegratorTest_RAM.outVal_return" Type="float32" Address="0x004510F8" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_lib_IntegratorTest_RAM.tester" Type="components_lib_Integrator_Automatic_RAM_SUBSTRUCT" Address="0x004510FC" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_lib_IntegratorTest_RAM.tester.memory" Type="float32" Address="0x004510FC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_lib_IntegratorTest_CAL_MEM" Type="components_lib_IntegratorTest_Automatic_CAL_MEM_SUBSTRUCT" Address="0x00434014" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_lib_IntegratorTest_CAL_MEM.integrate_dtVal" Type="float32" Address="0x00434014" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_lib_IntegratorTest_CAL_MEM.integrate_inputVal" Type="float32" Address="0x00434018" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_lib_IntegratorTest_CAL_MEM.tester" Type="components_lib_Integrator_Automatic_CAL_MEM_SUBSTRUCT" Address="0x0043401C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_lib_IntegratorTest_CAL_MEM.tester.kI" Type="float32" Address="0x0043401C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_lib_IntegratorTest_RAM" Type="components_lib_IntegratorTest_Automatic_RAM_SUBSTRUCT" Address="0x00451054" Size="8" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_lib_IntegratorTest_RAM.outVal_return" Type="float32" Address="0x00451054" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_lib_IntegratorTest_RAM.tester" Type="components_lib_Integrator_Automatic_RAM_SUBSTRUCT" Address="0x00451058" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_lib_IntegratorTest_RAM.tester.memory" Type="float32" Address="0x00451058" Size="4" Const="False" Pointer="False" />
 		<SymbolAddress Name="components_lib_IntegratorTest" Type="components_lib_IntegratorTest_Automatic" Address="0x0043B0A4" Size="8" Const="True" Pointer="False" />
 		<SymbolAddress Name="components_lib_IntegratorTest.tester" Type="components_lib_Integrator_Automatic" Address="0x0043B0A4" Size="8" Const="True" Pointer="False" />
 		<SymbolAddress Name="components_lib_IntegratorTest.tester.components_lib_Integrator_Automatic_CAL_MEM" Type="components_lib_Integrator_Automatic_CAL_MEM_SUBSTRUCT" Address="0x0043B0A4" Size="4" Const="True" Pointer="True" />
@@ -339,34 +73,300 @@
 	<CompilationUnit Name="src/components_lib_Integrator_Automatic.c" />
 	<CompilationUnit Name="src/components_lib_percentCompare_Automatic.c" />
 	<CompilationUnit Name="src/components_lib_statemaschine_Automatic.c">
-		<SymbolAddress Name="components_lib_statemaschine_RAM" Type="components_lib_statemaschine_Automatic_RAM_SUBSTRUCT" Address="0x00451100" Size="20" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_lib_statemaschine_RAM.SoundOutStateMaschine_instance" Type="components_SoundOutStateMaschine_Automatic_RAM_SUBSTRUCT" Address="0x00451100" Size="20" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_lib_statemaschine_RAM.SoundOutStateMaschine_instance.countLong" Type="sint32" Address="0x00451100" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_lib_statemaschine_RAM.SoundOutStateMaschine_instance.countShort" Type="sint32" Address="0x00451104" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_lib_statemaschine_RAM.SoundOutStateMaschine_instance.deltaTime" Type="float32" Address="0x00451108" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_lib_statemaschine_RAM.SoundOutStateMaschine_instance.time" Type="float32" Address="0x0045110C" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_lib_statemaschine_RAM.SoundOutStateMaschine_instance.lampOn" Type="uint8" Address="0x00451110" Size="1" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_lib_statemaschine_RAM.SoundOutStateMaschine_instance.sm" Type="uint8" Address="0x00451111" Size="1" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_lib_statemaschine_RAM" Type="components_lib_statemaschine_Automatic_RAM_SUBSTRUCT" Address="0x0045105C" Size="20" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_lib_statemaschine_RAM.SoundOutStateMaschine_instance" Type="components_SoundOutStateMaschine_Automatic_RAM_SUBSTRUCT" Address="0x0045105C" Size="20" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_lib_statemaschine_RAM.SoundOutStateMaschine_instance.countLong" Type="sint32" Address="0x0045105C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_lib_statemaschine_RAM.SoundOutStateMaschine_instance.countShort" Type="sint32" Address="0x00451060" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_lib_statemaschine_RAM.SoundOutStateMaschine_instance.deltaTime" Type="float32" Address="0x00451064" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_lib_statemaschine_RAM.SoundOutStateMaschine_instance.time" Type="float32" Address="0x00451068" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_lib_statemaschine_RAM.SoundOutStateMaschine_instance.lampOn" Type="uint8" Address="0x0045106C" Size="1" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_lib_statemaschine_RAM.SoundOutStateMaschine_instance.sm" Type="uint8" Address="0x0045106D" Size="1" Const="False" Pointer="False" />
 		<SymbolAddress Name="components_lib_statemaschine" Type="components_lib_statemaschine_Automatic" Address="0x0043B0AC" Size="4" Const="True" Pointer="False" />
 		<SymbolAddress Name="components_lib_statemaschine.SoundOutStateMaschine_instance" Type="components_SoundOutStateMaschine_Automatic" Address="0x0043B0AC" Size="4" Const="True" Pointer="False" />
 		<SymbolAddress Name="components_lib_statemaschine.SoundOutStateMaschine_instance.components_SoundOutStateMaschine_Automatic_RAM" Type="components_SoundOutStateMaschine_Automatic_RAM_SUBSTRUCT" Address="0x0043B0AC" Size="4" Const="True" Pointer="True" />
 	</CompilationUnit>
 	<CompilationUnit Name="src/components_pressureError_Automatic.c">
-		<SymbolAddress Name="components_pressureError_err" Type="uint8" Address="0x00451118" Size="1" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_pressureError_errFl" Type="uint8" Address="0x00451117" Size="1" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_pressureError_errFr" Type="uint8" Address="0x00451116" Size="1" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_pressureError_errRl" Type="uint8" Address="0x00451115" Size="1" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_pressureError_errRr" Type="uint8" Address="0x00451114" Size="1" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_pressureError_err" Type="uint8" Address="0x00451074" Size="1" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_pressureError_errFl" Type="uint8" Address="0x00451073" Size="1" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_pressureError_errFr" Type="uint8" Address="0x00451072" Size="1" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_pressureError_errRl" Type="uint8" Address="0x00451071" Size="1" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_pressureError_errRr" Type="uint8" Address="0x00451070" Size="1" Const="False" Pointer="False" />
 	</CompilationUnit>
 	<CompilationUnit Name="src/components_SoundOutStateMaschine_Automatic.c" />
 	<CompilationUnit Name="src/components_veloCar_Automatic.c">
-		<SymbolAddress Name="components_veloCar_vfl" Type="float32" Address="0x00451128" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_veloCar_vfr" Type="float32" Address="0x00451124" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_veloCar_vrl" Type="float32" Address="0x00451120" Size="4" Const="False" Pointer="False" />
-		<SymbolAddress Name="components_veloCar_vrr" Type="float32" Address="0x0045111C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_veloCar_vfl" Type="float32" Address="0x00451084" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_veloCar_vfr" Type="float32" Address="0x00451080" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_veloCar_vrl" Type="float32" Address="0x0045107C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_veloCar_vrr" Type="float32" Address="0x00451078" Size="4" Const="False" Pointer="False" />
 	</CompilationUnit>
 	<CompilationUnit Name="src/PC_PC_Automatic.c">
-		<SymbolAddress Name="ASD_DT_SCALED" Type="float32" Address="0x0045112C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="ASD_DT_SCALED" Type="float32" Address="0x00451088" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="l1/PC_PC.l1.c">
+		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x00451094" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x0043405C" Size="8" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_PC_PC_ClassHeader" Type="" Address="0x0043404C" Size="16" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_PC_PC_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x0043404C" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_PC_PC_ClassHeader.noOfClassMethods" Type="uint16" Address="0x0043404E" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_PC_PC_ClassHeader.noOfObjectVars" Type="uint16" Address="0x00434050" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_PC_PC_ClassHeader.noOfClassVars" Type="uint16" Address="0x00434052" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_PC_PC_ClassHeader.objectMethods" Type="MethodList" Address="0x00434054" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_PC_PC_ClassHeader.classMethods" Type="MethodList" Address="0x00434058" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_PC_PC_ClassObj" Type="" Address="0x00434020" Size="44" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_PC_PC_ClassObj.objectHeader" Type="" Address="0x00434020" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_PC_PC_ClassObj.objectHeader.states" Type="uint32" Address="0x00434020" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_PC_PC_ClassObj.objectHeader.ref" Type="" Address="0x00434024" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_PC_PC_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x00434024" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_PC_PC_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x00434024" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_PC_PC_ClassObj.objectHeader.size" Type="" Address="0x00434028" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_PC_PC_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x00434028" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_PC_PC_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x00434028" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_PC_PC_ClassObj.components_lib_IntegratorTest_Automatic" Type="L1_components_lib_IntegratorTest_Automatic_Obj" Address="0x0043402C" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_PC_PC_ClassObj.components_lib_diffCheck_Automatic" Type="L1_components_lib_diffCheck_Automatic_Obj" Address="0x00434030" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_PC_PC_ClassObj.components_Component_Automatic" Type="L1_components_Component_Automatic_Obj" Address="0x00434034" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_PC_PC_ClassObj.components_veloCar_Automatic" Type="L1_components_veloCar_Automatic_Obj" Address="0x00434038" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_PC_PC_ClassObj.components_distanceCar_Automatic" Type="L1_components_distanceCar_Automatic_Obj" Address="0x0043403C" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_PC_PC_ClassObj.components_diffWheel_Automatic" Type="L1_components_diffWheel_Automatic_Obj" Address="0x00434040" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_PC_PC_ClassObj.components_pressureError_Automatic" Type="L1_components_pressureError_Automatic_Obj" Address="0x00434044" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_PC_PC_ClassObj.components_lib_statemaschine_Automatic" Type="L1_components_lib_statemaschine_Automatic_Obj" Address="0x00434048" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_PC_PCInstance" Type="L1_PC_PC_Obj" Address="0x00451090" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="initialized_PC_PC" Type="bool" Address="0x0045108C" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="l1/components_lib_IntegratorTest_Automatic.l1.c">
+		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x004510A4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x004510A0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassHeader" Type="" Address="0x0043408C" Size="16" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x0043408C" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x0043408E" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x00434090" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x00434092" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x00434094" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x00434098" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassObj" Type="" Address="0x00434080" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassObj.objectHeader" Type="" Address="0x00434080" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x00434080" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x00434084" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x00434084" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x00434084" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassObj.objectHeader.size" Type="" Address="0x00434088" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x00434088" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_IntegratorTest_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x00434088" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_IntegratorTest_AutomaticInstance" Type="L1_components_lib_IntegratorTest_Automatic_Obj" Address="0x0045109C" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="initialized_components_lib_IntegratorTest_Automatic" Type="bool" Address="0x00451098" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="l1/components_lib_Integrator_Automatic.l1.c">
+		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x004510B0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x004510AC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassHeader" Type="" Address="0x004340A8" Size="16" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x004340A8" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x004340AA" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x004340AC" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x004340AE" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x004340B0" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x004340B4" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassObj" Type="" Address="0x0043409C" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassObj.objectHeader" Type="" Address="0x0043409C" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x0043409C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x004340A0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x004340A0" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x004340A0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassObj.objectHeader.size" Type="" Address="0x004340A4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x004340A4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_Integrator_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x004340A4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="initialized_components_lib_Integrator_Automatic" Type="bool" Address="0x004510A8" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="l1/components_lib_diffCheck_Automatic.l1.c">
+		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x004510C0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x004510BC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassHeader" Type="" Address="0x004340C4" Size="16" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x004340C4" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x004340C6" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x004340C8" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x004340CA" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x004340CC" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x004340D0" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassObj" Type="" Address="0x004340B8" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassObj.objectHeader" Type="" Address="0x004340B8" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x004340B8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x004340BC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x004340BC" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x004340BC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassObj.objectHeader.size" Type="" Address="0x004340C0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x004340C0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_diffCheck_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x004340C0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_diffCheck_AutomaticInstance" Type="L1_components_lib_diffCheck_Automatic_Obj" Address="0x004510B8" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="initialized_components_lib_diffCheck_Automatic" Type="bool" Address="0x004510B4" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="l1/components_Component_Automatic.l1.c">
+		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x004510D0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x004510CC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Component_Automatic_ClassHeader" Type="" Address="0x004340E0" Size="16" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Component_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x004340E0" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Component_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x004340E2" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Component_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x004340E4" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Component_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x004340E6" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Component_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x004340E8" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_Component_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x004340EC" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_Component_Automatic_ClassObj" Type="" Address="0x004340D4" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Component_Automatic_ClassObj.objectHeader" Type="" Address="0x004340D4" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Component_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x004340D4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Component_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x004340D8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Component_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x004340D8" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_Component_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x004340D8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Component_Automatic_ClassObj.objectHeader.size" Type="" Address="0x004340DC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Component_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x004340DC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Component_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x004340DC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Component_AutomaticInstance" Type="L1_components_Component_Automatic_Obj" Address="0x004510C8" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="initialized_components_Component_Automatic" Type="bool" Address="0x004510C4" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="l1/components_veloCar_Automatic.l1.c">
+		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x004510E0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x004510DC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassHeader" Type="" Address="0x0043410C" Size="16" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x0043410C" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x0043410E" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x00434110" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x00434112" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x00434114" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x00434118" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj" Type="" Address="0x004340F0" Size="28" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.objectHeader" Type="" Address="0x004340F0" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x004340F0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x004340F4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x004340F4" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x004340F4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.objectHeader.size" Type="" Address="0x004340F8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x004340F8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x004340F8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.vfl" Type="scalarWrapper_Obj" Address="0x004340FC" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.vfr" Type="scalarWrapper_Obj" Address="0x00434100" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.vrl" Type="scalarWrapper_Obj" Address="0x00434104" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_veloCar_Automatic_ClassObj.vrr" Type="scalarWrapper_Obj" Address="0x00434108" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_veloCar_AutomaticInstance" Type="L1_components_veloCar_Automatic_Obj" Address="0x004510D8" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="initialized_components_veloCar_Automatic" Type="bool" Address="0x004510D4" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="l1/components_distanceCar_Automatic.l1.c">
+		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x004510F0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x004510EC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassHeader" Type="" Address="0x00434140" Size="16" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x00434140" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x00434142" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x00434144" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x00434146" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x00434148" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x0043414C" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj" Type="" Address="0x00434120" Size="32" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.objectHeader" Type="" Address="0x00434120" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x00434120" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x00434124" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x00434124" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x00434124" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.objectHeader.size" Type="" Address="0x00434128" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x00434128" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x00434128" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.sfl" Type="scalarWrapper_Obj" Address="0x0043412C" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.sfr" Type="scalarWrapper_Obj" Address="0x00434130" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.srl" Type="scalarWrapper_Obj" Address="0x00434134" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.srr" Type="scalarWrapper_Obj" Address="0x00434138" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_distanceCar_Automatic_ClassObj.avgDistanceCar" Type="scalarWrapper_Obj" Address="0x0043413C" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_distanceCar_AutomaticInstance" Type="L1_components_distanceCar_Automatic_Obj" Address="0x004510E8" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="initialized_components_distanceCar_Automatic" Type="bool" Address="0x004510E4" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="l1/components_diffWheel_Automatic.l1.c">
+		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x00451100" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x004510FC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassHeader" Type="" Address="0x0043417C" Size="16" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x0043417C" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x0043417E" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x00434180" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x00434182" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x00434184" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x00434188" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj" Type="" Address="0x00434160" Size="28" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.objectHeader" Type="" Address="0x00434160" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x00434160" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x00434164" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x00434164" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x00434164" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.objectHeader.size" Type="" Address="0x00434168" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x00434168" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x00434168" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.diffFl" Type="scalarWrapper_Obj" Address="0x0043416C" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.diffFr" Type="scalarWrapper_Obj" Address="0x00434170" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.diffRl" Type="scalarWrapper_Obj" Address="0x00434174" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_diffWheel_Automatic_ClassObj.diffRr" Type="scalarWrapper_Obj" Address="0x00434178" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_diffWheel_AutomaticInstance" Type="L1_components_diffWheel_Automatic_Obj" Address="0x004510F8" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="initialized_components_diffWheel_Automatic" Type="bool" Address="0x004510F4" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="l1/components_pressureError_Automatic.l1.c">
+		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x00451110" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x0045110C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassHeader" Type="" Address="0x004341C0" Size="16" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x004341C0" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x004341C2" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x004341C4" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x004341C6" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x004341C8" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x004341CC" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj" Type="" Address="0x004341A0" Size="32" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.objectHeader" Type="" Address="0x004341A0" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x004341A0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x004341A4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x004341A4" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x004341A4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.objectHeader.size" Type="" Address="0x004341A8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x004341A8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x004341A8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.errFl" Type="scalarWrapper_Obj" Address="0x004341AC" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.errFr" Type="scalarWrapper_Obj" Address="0x004341B0" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.errRl" Type="scalarWrapper_Obj" Address="0x004341B4" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.errRr" Type="scalarWrapper_Obj" Address="0x004341B8" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_pressureError_Automatic_ClassObj.err" Type="scalarWrapper_Obj" Address="0x004341BC" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_pressureError_AutomaticInstance" Type="L1_components_pressureError_Automatic_Obj" Address="0x00451108" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="initialized_components_pressureError_Automatic" Type="bool" Address="0x00451104" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="l1/components_lib_statemaschine_Automatic.l1.c">
+		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x00451120" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x0045111C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassHeader" Type="" Address="0x004341EC" Size="16" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x004341EC" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x004341EE" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x004341F0" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x004341F2" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x004341F4" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x004341F8" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassObj" Type="" Address="0x004341E0" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassObj.objectHeader" Type="" Address="0x004341E0" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x004341E0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x004341E4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x004341E4" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x004341E4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassObj.objectHeader.size" Type="" Address="0x004341E8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x004341E8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_statemaschine_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x004341E8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_lib_statemaschine_AutomaticInstance" Type="L1_components_lib_statemaschine_Automatic_Obj" Address="0x00451118" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="initialized_components_lib_statemaschine_Automatic" Type="bool" Address="0x00451114" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="l1/components_SoundOutStateMaschine_Automatic.l1.c">
+		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x0045112C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x00451128" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassHeader" Type="" Address="0x00434208" Size="16" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x00434208" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x0043420A" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x0043420C" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x0043420E" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x00434210" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x00434214" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassObj" Type="" Address="0x004341FC" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassObj.objectHeader" Type="" Address="0x004341FC" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x004341FC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x00434200" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x00434200" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x00434200" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassObj.objectHeader.size" Type="" Address="0x00434204" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x00434204" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_SoundOutStateMaschine_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x00434204" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="initialized_components_SoundOutStateMaschine_Automatic" Type="bool" Address="0x00451124" Size="4" Const="False" Pointer="False" />
 	</CompilationUnit>
 	<CompilationUnit Name="C:/ETAS/ASCET-DEVELOPER7.4/configuration/org.eclipse.osgi/50/0/.cp/platform/code/etasConfigTask.c">
 		<SymbolAddress Name="etasConfigTaskMon" Type="struct_taskMonitor" Address="0x00434220" Size="56" Const="False" Pointer="False" />

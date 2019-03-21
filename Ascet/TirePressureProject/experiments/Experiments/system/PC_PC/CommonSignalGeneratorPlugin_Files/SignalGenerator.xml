@@ -7,6 +7,11 @@
         <item xsi:type="ETAS.EE.Data.SignalGenerator.SignalDescriptionRefType" idRef="ID3c5c788f-42e0-4c7a-9337-fd6c6fb3bb11" />
       </signalDescriptions>
     </item>
+    <item xsi:type="ETAS.EE.Data.SignalGenerator.SignalDescriptionSetType" id="ID49984ecb-74e4-4f20-91c1-8cdcd058375f" name="SignalDescriptionSet_1" comment="" repetitions="1">
+      <signalDescriptions xsi:type="ETAS.EE.Data.SignalGenerator.SignalDescriptionRefListType">
+        <item xsi:type="ETAS.EE.Data.SignalGenerator.SignalDescriptionRefType" idRef="ID4ffd5456-3db8-4cdc-8003-797139aa5708" />
+      </signalDescriptions>
+    </item>
   </signalDescriptionSets>
   <signalDescriptions xsi:type="ETAS.EE.Data.SignalGenerator.SignalDescriptionListType">
     <item xsi:type="ETAS.EE.Data.SignalGenerator.SignalDescriptionType" id="ID5ef98542-f2d2-41c5-9ef4-b3bfbd621995" name="vel" comment="">
@@ -59,6 +64,28 @@
         </item>
       </signalSegments>
     </item>
+    <item xsi:type="ETAS.EE.Data.SignalGenerator.SignalDescriptionType" id="ID4ffd5456-3db8-4cdc-8003-797139aa5708" name="sine" comment="">
+      <signalSegments xsi:type="ETAS.EE.Data.SignalGenerator.SignalSegmentListType">
+        <item xsi:type="ETAS.EE.Data.SignalGenerator.SignalSegmentType" duration="10000000000" comment="" iterations="1">
+          <waveForm xsi:type="ETAS.EE.Data.SignalGenerator.WaveFormType">
+            <sine xsi:type="ETAS.EE.Data.SignalGenerator.WFSineType">
+              <offset xsi:type="ETAS.EE.Data.SignalGenerator.WFPropertyValueType">
+                <constant xsi:type="ETAS.EE.Data.SignalGenerator.WFConstantValueType" value="0" />
+              </offset>
+              <amplitude xsi:type="ETAS.EE.Data.SignalGenerator.WFPropertyValueType">
+                <constant xsi:type="ETAS.EE.Data.SignalGenerator.WFConstantValueType" value="1" />
+              </amplitude>
+              <period xsi:type="ETAS.EE.Data.SignalGenerator.WFPropertyValueType">
+                <constant xsi:type="ETAS.EE.Data.SignalGenerator.WFConstantValueType" value="0.001" />
+              </period>
+              <phase xsi:type="ETAS.EE.Data.SignalGenerator.WFPropertyValueType">
+                <constant xsi:type="ETAS.EE.Data.SignalGenerator.WFConstantValueType" value="0" />
+              </phase>
+            </sine>
+          </waveForm>
+        </item>
+      </signalSegments>
+    </item>
   </signalDescriptions>
   <signalMappings xsi:type="ETAS.EE.Data.SignalGenerator.SignalMappingListType">
     <item xsi:type="ETAS.EE.Data.SignalGenerator.SignalMappingType" id="ID758dd632-803a-4aef-b4a6-3c94c827a6c2" name="velocities">
@@ -77,11 +104,23 @@
         </item>
       </mappingItems>
     </item>
+    <item xsi:type="ETAS.EE.Data.SignalGenerator.SignalMappingType" id="ID31d9ca8e-82d5-4e2c-b8c1-0d134df9716e" name="sine">
+      <mappingItems xsi:type="ETAS.EE.Data.SignalGenerator.MappingItemListType">
+        <item xsi:type="ETAS.EE.Data.SignalGenerator.MappingItemType" id="ID1baa6c66-1c62-4e82-9734-82acb7ad04a3" label="components.Component.noise1_instance_2.noiseGenerator_instance.sin" task="Task0">
+          <signalDescription xsi:type="ETAS.EE.Data.SignalGenerator.SignalDescriptionRefType" idRef="ID4ffd5456-3db8-4cdc-8003-797139aa5708" />
+        </item>
+      </mappingItems>
+    </item>
   </signalMappings>
   <signalGenerators xsi:type="ETAS.EE.Data.SignalGenerator.SignalGeneratorListType">
     <item xsi:type="ETAS.EE.Data.SignalGenerator.SignalGeneratorType" id="ID42b0c5b9-a206-40dc-920f-541fa1476bc7" instanceId="0" name="SignalGenerator" startTime="0" stopBehaviour="StartValue">
       <mapping xsi:type="ETAS.EE.Data.SignalGenerator.SignalGeneratorMappingContainerType" mappingChange="Dynamically">
         <signalMapping xsi:type="ETAS.EE.Data.SignalGenerator.SignalMappingRefType" idRef="ID758dd632-803a-4aef-b4a6-3c94c827a6c2" />
+      </mapping>
+    </item>
+    <item xsi:type="ETAS.EE.Data.SignalGenerator.SignalGeneratorType" id="ID26a41a4c-ddc2-4f11-bb89-569c9d0b8a7e" instanceId="1" name="SignalGenerator_1" startTime="0" stopBehaviour="StartValue">
+      <mapping xsi:type="ETAS.EE.Data.SignalGenerator.SignalGeneratorMappingContainerType" mappingChange="Dynamically">
+        <signalMapping xsi:type="ETAS.EE.Data.SignalGenerator.SignalMappingRefType" idRef="ID31d9ca8e-82d5-4e2c-b8c1-0d134df9716e" />
       </mapping>
     </item>
   </signalGenerators>
