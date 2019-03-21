@@ -1,7 +1,0 @@
-package components.lib;
-
-class percentCompare {
-	@generated("blockdiagram")
-	public void calc() {
-	}
-}

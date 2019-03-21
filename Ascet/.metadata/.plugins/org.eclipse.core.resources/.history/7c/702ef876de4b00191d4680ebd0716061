@@ -1,0 +1,7 @@
+package components.lib;
+
+class TirePressureProject {
+	@generated("blockdiagram")
+	public void calc() {
+	}
+}

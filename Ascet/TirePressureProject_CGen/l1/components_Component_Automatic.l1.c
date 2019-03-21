@@ -33,7 +33,7 @@ static MethodList _ClassMethodList = {
 struct L1_components_Component_Automatic_Obj* L1_components_Component_AutomaticInstance = NULL;
 
 static ASDClassHeader L1_components_Component_Automatic_ClassHeader = {
-	0, 0, 4, 0, &_ObjectMethodList, &_ClassMethodList
+	0, 0, 10, 0, &_ObjectMethodList, &_ClassMethodList
 };
 
 L1_components_Component_Automatic_Class L1_components_Component_Automatic_ClassObj = {{1, {&L1_components_Component_Automatic_ClassHeader}, {0}}};
@@ -58,6 +58,12 @@ struct L1_components_Component_Automatic_Obj* initInstance_L1_components_Compone
     L1_Instance->Integrator_instance1 = initInstance_L1_components_lib_Integrator_Automatic(&Integrator_instance1_VAL);
     L1_Instance->Integrator_instance2 = initInstance_L1_components_lib_Integrator_Automatic(&Integrator_instance2_VAL);
     L1_Instance->Integrator_instance3 = initInstance_L1_components_lib_Integrator_Automatic(&Integrator_instance3_VAL);
+    L1_Instance->TirePressureProject_instance = initInstance_L1_components_lib_NoiseGenerator_Automatic(&TirePressureProject_instance_VAL);
+    L1_Instance->NoiseGenerator_instance = initInstance_L1_components_lib_NoiseGenerator_Automatic(&NoiseGenerator_instance_VAL);
+    L1_Instance->vflA = initInstance_scalarWrapper((uint32)&vflA_VAL, sizeof(sint32), ASD_PARAMETER);
+    L1_Instance->vflC = initInstance_scalarWrapper((uint32)&vflC_VAL, sizeof(sint32), ASD_PARAMETER);
+    L1_Instance->vflM = initInstance_scalarWrapper((uint32)&vflM_VAL, sizeof(sint32), ASD_PARAMETER);
+    L1_Instance->gain = initInstance_scalarWrapper((uint32)&gain_VAL, sizeof(float32), ASD_PARAMETER);
     L1_components_Component_AutomaticInstance = L1_Instance;
 
     return L1_Instance;

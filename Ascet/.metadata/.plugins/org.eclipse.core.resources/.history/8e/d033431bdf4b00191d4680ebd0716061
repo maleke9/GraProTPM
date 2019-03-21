@@ -1,0 +1,6 @@
+classType components.lib.TirePressureProject
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin active
+	}
+}

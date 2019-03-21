@@ -1,20 +1,11 @@
-classType components.lib.noiseGenerator
+classType components.lib.NoiseGenerator
 blockdiagramSpecification Main {
 	methodBody calc {
 		outPin active {
-			connection_18, connection_11
+			connection_11, connection_16
 		}
 	}
-	methodArgumentIdentifier calc.argA at (61, 145) {
-		label at (0, -1)
-		outPin {
-			connection_2
-		}
-		sequenceCall {
-			inPin
-		}
-	}
-	methodArgumentIdentifier calc.argC at (151, 145) {
+	methodArgumentIdentifier calc.argA at (61, 35) {
 		label at (0, -1)
 		outPin {
 			connection_4
@@ -23,7 +14,7 @@ blockdiagramSpecification Main {
 			inPin
 		}
 	}
-	methodArgumentIdentifier calc.argM at (231, 135) {
+	methodArgumentIdentifier calc.argC at (61, 65) {
 		label at (0, -1)
 		outPin {
 			connection_6
@@ -32,81 +23,92 @@ blockdiagramSpecification Main {
 			inPin
 		}
 	}
-	multiplication at (121, 176) {
-		inPin connection_2 {
-			bendpoints (0, 30)
-		}
-		inPin connection_27
+	methodArgumentIdentifier calc.argM at (61, 95) {
+		label at (0, -1)
 		outPin {
-			connection_3
+			connection_7
+		}
+		sequenceCall {
+			inPin
 		}
 	}
-	addition at (221, 166) {
-		inPin connection_4 {
-			bendpoints (30, 0)
+	methodArgumentIdentifier calc.scaleGain at (371, 145) {
+		label at (0, -1)
+		outPin {
+			connection_13
 		}
-		inPin connection_3
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier mem at (51, 5) {
+		label at (0, -1)
+		inPin outPin {
+			connection_3
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	multiplication at (151, 16) {
+		inPin connection_3 {
+			bendpoints (50, 0)
+		}
+		inPin connection_4
 		outPin {
 			connection_5
 		}
 	}
-	modulo at (301, 156) {
-		inPin connection_6 {
-			bendpoints (30, 0)
+	addition at (221, 56) {
+		inPin connection_5 {
+			bendpoints (10, 0), (10, 30)
 		}
-		inPin connection_5
+		inPin connection_6 {
+			bendpoints (60, 0), (60, 10)
+		}
 		outPin {
-			connection_19
+			connection_8
 		}
 	}
-	return at (581, 155) {
-		label at (0, 0)
-		inPin connection_31
+	modulo at (311, 76) {
+		inPin connection_8 {
+			bendpoints (10, 0), (10, 10)
+		}
+		inPin connection_7
+		outPin {
+			connection_12
+		}
+	}
+	simpleIdentifier mem at (371, 85) {
+		label at (0, -1)
+		inPin connection_12
+		outPin {
+			connection_17
+		}
 		sequenceCall {
 			inPin connection_11
 		}
 	}
-	simpleIdentifier Xi at (371, 165) {
-		label at (0, -1)
-		inPin connection_19
-		outPin {
-			connection_32
+	multiplication at (461, 96) {
+		inPin connection_15
+		inPin connection_13 {
+			bendpoints (20, 0), (20, -30)
 		}
+		outPin {
+			connection_18
+		}
+	}
+	return at (531, 105) {
+		label at (0, 0)
+		inPin connection_18
 		sequenceCall {
-			inPin connection_18
+			inPin connection_16
 		}
 	}
-	simpleIdentifier Xi at (21, 195) {
-		label at (0, -1)
-		inPin outPin {
-			connection_27
-		}
-		sequenceCall {
-			inPin
-		}
-	}
-	multiplication at (511, 146) {
-		inPin connection_34 {
-			bendpoints (10, 0), (10, 30)
-		}
-		inPin connection_33
+	typeConverter real at (421, 81) {
+		inPin connection_17
 		outPin {
-			connection_31
-		}
-	}
-	typeConverter real at (451, 161) {
-		inPin connection_32
-		outPin {
-			connection_33
-		}
-	}
-	methodArgumentIdentifier calc.argScale at (441, 115) {
-		label at (0, -1)
-		outPin {
-			connection_34
-		}
-		sequenceCall {
-			inPin
+			connection_15
 		}
 	}
 }

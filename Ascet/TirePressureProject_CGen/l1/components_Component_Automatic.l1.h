@@ -13,6 +13,7 @@
 #include "a_basdef.h"
 #include "components_Component_Automatic.h"
 #include "components_lib_Integrator_Automatic.l1.h"
+#include "components_lib_NoiseGenerator_Automatic.l1.h"
 
 /**
  * local variables object structure 
@@ -23,6 +24,12 @@ struct L1_components_Component_Automatic_Obj {
 	struct L1_components_lib_Integrator_Automatic_Obj* Integrator_instance1;
 	struct L1_components_lib_Integrator_Automatic_Obj* Integrator_instance2;
 	struct L1_components_lib_Integrator_Automatic_Obj* Integrator_instance3;
+	struct L1_components_lib_NoiseGenerator_Automatic_Obj* TirePressureProject_instance;
+	struct L1_components_lib_NoiseGenerator_Automatic_Obj* NoiseGenerator_instance;
+	scalarWrapper_Obj* vflA;
+	scalarWrapper_Obj* vflC;
+	scalarWrapper_Obj* vflM;
+	scalarWrapper_Obj* gain;
 };
 
 /**

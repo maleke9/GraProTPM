@@ -1,12 +1,12 @@
 package components.lib;
 
-type myInt is integer 0 .. 1000;
+type myInt is integer 1 .. 10000;
+class NoiseGenerator {
+	myInt mem = 1;
 
-class noiseGenerator {
-	myInt Xi = 0;
 	@generated("blockdiagram")
-	public real calc(integer in argA, integer in argC, integer in argM, real in argScale) {
-		Xi = (argM % (argC + (argA * Xi))); // Main/calc 1
-		return(argScale * real(Xi)); // Main/calc 2
+	public real calc(myInt in argA, myInt in argC, myInt in argM, real in scaleGain) {
+		mem = (((mem * argA) + argC) % argM); // Main/calc 1
+		return(real(mem) * scaleGain); // Main/calc 2
 	}
 }
