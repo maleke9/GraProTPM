@@ -11,33 +11,33 @@ static class noiseGeneratorTest {
 	NoiseGenerator ng4;
 
 	@Test
-	public void testNoiseNormal() {
+	public void testOfNoiseNormal() {
 		real x = ng1.calc(2, 7, 17, 0.01);
-		Assert.assertTrue(x == 0.09);
+		Assert.assertTrue((x < 0.1) || (x > 0.08));
 	}
 	
 	@Test
 	public void testNoiseNegativeA() {
 		real x = ng2.calc(-2, 7, 17, 0.01);
-		Assert.assertTrue(x == 0.05);
+		Assert.assertTrue((x < 0.06) || (x > 0.04));
 	}
 	
 	@Test
 	public void testNoiseNegativeC() {
 		real x = ng2.calc(2, -6, 17, 0.01);
-		Assert.assertTrue(x == 0.04);
+		Assert.assertTrue((x < 0.05) || (x > 0.03));
 	}
 	
 	@Test
 	public void testNoiseZeroA() {
 		real x = ng3.calc(0, 7, 17, 0.01);
-		Assert.assertTrue(x == 0.07);
+		Assert.assertTrue((x < 0.08) || (x > 0.06));
 	}
 	
 	@Test
 	public void testNoiseZeroC() {
 		real x = ng3.calc(2, 0, 17, 0.01);
-		Assert.assertTrue(x == 0.02);
+		Assert.assertTrue((x < 0.03) || (x > 0.01));
 	}
 	
 	@Test

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
-		<cconfiguration id="cdt.managedbuild.config.gnu.mingw.exe.debug.317019219">
-			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.mingw.exe.debug.317019219" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+		<cconfiguration id="cdt.managedbuild.config.gnu.mingw.exe.debug.1193418236">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.mingw.exe.debug.1193418236" moduleId="org.eclipse.cdt.core.settings" name="Debug">
 				<externalSettings/>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
@@ -12,89 +12,59 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="TirePressureProject_CGen" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.mingw.exe.debug.317019219" name="Debug" parent="cdt.managedbuild.config.gnu.mingw.exe.debug">
-					<folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.317019219." name="/" resourcePath="">
-						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.exe.debug.1208861392" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.exe.debug">
-							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.exe.debug.546635626" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.exe.debug"/>
-							<builder buildPath="${workspace_loc:/TirePressureProject_CGen}/Debug" enableAutoBuild="false" id="cdt.managedbuild.tool.gnu.builder.mingw.base.1413590976" keepEnvironmentInBuildfile="true" managedBuildOn="true" name="CDT Internal Builder.Debug" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cdt.managedbuild.tool.gnu.builder.mingw.base"/>
-							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.debug.953890100" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.debug">
-								<option id="gnu.both.asm.option.include.paths.1938982381" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="googleTestLib"/>
-									<listOptionValue builtIn="false" value="googleTestLib/gtest"/>
-									<listOptionValue builtIn="false" value="src"/>
-									<listOptionValue builtIn="false" value="tests"/>
-									<listOptionValue builtIn="false" value="../googleTestLib"/>
-									<listOptionValue builtIn="false" value="../googleTestLib/gtest"/>
+				<configuration artifactName="TirePressureProject_CGen" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.mingw.exe.debug.1193418236" name="Debug" parent="cdt.managedbuild.config.gnu.mingw.exe.debug">
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.1193418236." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.exe.debug.774913778" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.exe.debug">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.exe.debug.626314249" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.exe.debug"/>
+							<builder buildPath="${workspace_loc:/TirePressureProject_CGen}/Debug" enableAutoBuild="false" id="cdt.managedbuild.tool.gnu.builder.mingw.base.1357596932" keepEnvironmentInBuildfile="true" managedBuildOn="true" name="CDT Internal Builder.Debug" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cdt.managedbuild.tool.gnu.builder.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.debug.1666127388" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.debug">
+								<option id="gnu.both.asm.option.include.paths.535861820" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="../include"/>
-									<listOptionValue builtIn="false" value="../l1"/>
-									<listOptionValue builtIn="false" value="../obj"/>
-									<listOptionValue builtIn="false" value="../platform"/>
 									<listOptionValue builtIn="false" value="../src"/>
-									<listOptionValue builtIn="false" value="../tests"/>
 								</option>
-								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.492316544" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.321570076" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
-							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.1000119762" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
-							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.1596399886" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug">
-								<option id="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level.1295342013" superClass="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
-								<option id="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level.628035292" superClass="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.1956810701" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.434263928" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug">
+								<option id="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level.1602736354" superClass="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level.613811816" superClass="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
 							</tool>
-							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.791416612" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug">
-								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.mingw.exe.debug.option.optimization.level.472743853" superClass="gnu.c.compiler.mingw.exe.debug.option.optimization.level" valueType="enumerated"/>
-								<option id="gnu.c.compiler.mingw.exe.debug.option.debugging.level.1530624954" superClass="gnu.c.compiler.mingw.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
-								<option id="gnu.c.compiler.option.include.paths.1352759038" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="googleTestLib"/>
-									<listOptionValue builtIn="false" value="googleTestLib/gtest"/>
-									<listOptionValue builtIn="false" value="src"/>
-									<listOptionValue builtIn="false" value="tests"/>
-									<listOptionValue builtIn="false" value="../googleTestLib"/>
-									<listOptionValue builtIn="false" value="../googleTestLib/gtest"/>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.290581846" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.mingw.exe.debug.option.optimization.level.2086874121" superClass="gnu.c.compiler.mingw.exe.debug.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.mingw.exe.debug.option.debugging.level.2054552904" superClass="gnu.c.compiler.mingw.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1201967554" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="../include"/>
-									<listOptionValue builtIn="false" value="../l1"/>
-									<listOptionValue builtIn="false" value="../obj"/>
-									<listOptionValue builtIn="false" value="../platform"/>
 									<listOptionValue builtIn="false" value="../src"/>
-									<listOptionValue builtIn="false" value="../tests"/>
 								</option>
-								<option id="gnu.c.compiler.option.misc.other.2099148444" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-unused " valueType="string"/>
-								<option id="gnu.c.compiler.option.misc.ansi.652704681" superClass="gnu.c.compiler.option.misc.ansi" useByScannerDiscovery="false" value="true" valueType="boolean"/>
-								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1806769982" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+								<option id="gnu.c.compiler.option.misc.other.2004437668" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-unused " valueType="string"/>
+								<option id="gnu.c.compiler.option.misc.ansi.1694075210" superClass="gnu.c.compiler.option.misc.ansi" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.43256051" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
-							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug.1249524759" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug">
-								<option id="gnu.c.link.option.paths.269346685" superClass="gnu.c.link.option.paths" valueType="libPaths">
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug.965983145" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug">
+								<option id="gnu.c.link.option.paths.85913987" superClass="gnu.c.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="'${workspace_loc:/${ProjName}/lib}'"/>
 								</option>
-								<option id="gnu.c.link.option.libs.1110983746" superClass="gnu.c.link.option.libs" useByScannerDiscovery="false" valueType="libs">
+								<option id="gnu.c.link.option.libs.324685310" superClass="gnu.c.link.option.libs" useByScannerDiscovery="false" valueType="libs">
 									<listOptionValue builtIn="false" value="ESDL_Linear_Interpolation_x86"/>
 								</option>
-								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.701093034" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1767075969" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
 								</inputType>
 							</tool>
-							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug.480075411" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug.1489154917" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug"/>
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Debug/googleTestLib"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Debug/googleTestLib/gtest"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Debug/src"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Debug/tests"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="googleTestLib"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="googleTestLib/gtest"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="include"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="l1"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="obj"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="platform"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="tests"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 		</cconfiguration>
-		<cconfiguration id="cdt.managedbuild.config.gnu.mingw.exe.release.354778729">
-			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.mingw.exe.release.354778729" moduleId="org.eclipse.cdt.core.settings" name="Release">
+		<cconfiguration id="cdt.managedbuild.config.gnu.mingw.exe.release.957039487">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.mingw.exe.release.957039487" moduleId="org.eclipse.cdt.core.settings" name="Release">
 				<externalSettings/>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
@@ -104,280 +74,60 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="TirePressureProject_CGen" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.mingw.exe.release.354778729" name="Release" parent="cdt.managedbuild.config.gnu.mingw.exe.release">
-					<folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.release.354778729." name="/" resourcePath="">
-						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.exe.release.1854607315" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.exe.release">
-							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.exe.release.1943615482" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.exe.release"/>
-							<builder buildPath="${workspace_loc:/TirePressureProject_CGen}/Release" enableAutoBuild="false" id="cdt.managedbuild.tool.gnu.builder.mingw.base.216854696" keepEnvironmentInBuildfile="true" managedBuildOn="true" name="CDT Internal Builder.Release" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cdt.managedbuild.tool.gnu.builder.mingw.base"/>
-							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release.1256527938" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release">
-								<option id="gnu.both.asm.option.include.paths.30579469" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="../Debug/googleTestLib"/>
-									<listOptionValue builtIn="false" value="../Debug/googleTestLib/gtest"/>
-									<listOptionValue builtIn="false" value="../Debug/src"/>
-									<listOptionValue builtIn="false" value="../Debug/tests"/>
-									<listOptionValue builtIn="false" value="../googleTestLib"/>
-									<listOptionValue builtIn="false" value="../googleTestLib/gtest"/>
+				<configuration artifactName="TirePressureProject_CGen" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.mingw.exe.release.957039487" name="Release" parent="cdt.managedbuild.config.gnu.mingw.exe.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.release.957039487." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.exe.release.481579869" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.exe.release">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.exe.release.1550533699" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.exe.release"/>
+							<builder buildPath="${workspace_loc:/TirePressureProject_CGen}/Release" enableAutoBuild="false" id="cdt.managedbuild.tool.gnu.builder.mingw.base.1254652133" keepEnvironmentInBuildfile="true" managedBuildOn="true" name="CDT Internal Builder.Release" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cdt.managedbuild.tool.gnu.builder.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release.17815632" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release">
+								<option id="gnu.both.asm.option.include.paths.603662666" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="../include"/>
-									<listOptionValue builtIn="false" value="../l1"/>
-									<listOptionValue builtIn="false" value="../obj"/>
-									<listOptionValue builtIn="false" value="../platform"/>
 									<listOptionValue builtIn="false" value="../src"/>
-									<listOptionValue builtIn="false" value="../tests"/>
 								</option>
-								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1139675253" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1282492557" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
-							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.494153030" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
-							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.275572043" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release">
-								<option id="gnu.cpp.compiler.mingw.exe.release.option.optimization.level.1936995959" superClass="gnu.cpp.compiler.mingw.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
-								<option id="gnu.cpp.compiler.mingw.exe.release.option.debugging.level.704629882" superClass="gnu.cpp.compiler.mingw.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.1934909141" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.1914577509" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release">
+								<option id="gnu.cpp.compiler.mingw.exe.release.option.optimization.level.1472322346" superClass="gnu.cpp.compiler.mingw.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.mingw.exe.release.option.debugging.level.655816175" superClass="gnu.cpp.compiler.mingw.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
 							</tool>
-							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.2051200636" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release">
-								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.mingw.exe.release.option.optimization.level.2113890052" superClass="gnu.c.compiler.mingw.exe.release.option.optimization.level" valueType="enumerated"/>
-								<option id="gnu.c.compiler.mingw.exe.release.option.debugging.level.1809944837" superClass="gnu.c.compiler.mingw.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
-								<option id="gnu.c.compiler.option.include.paths.304928290" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="../Debug/googleTestLib"/>
-									<listOptionValue builtIn="false" value="../Debug/googleTestLib/gtest"/>
-									<listOptionValue builtIn="false" value="../Debug/src"/>
-									<listOptionValue builtIn="false" value="../Debug/tests"/>
-									<listOptionValue builtIn="false" value="../googleTestLib"/>
-									<listOptionValue builtIn="false" value="../googleTestLib/gtest"/>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1613059745" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.mingw.exe.release.option.optimization.level.1779744332" superClass="gnu.c.compiler.mingw.exe.release.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.mingw.exe.release.option.debugging.level.2006485607" superClass="gnu.c.compiler.mingw.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.2070587715" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="../include"/>
-									<listOptionValue builtIn="false" value="../l1"/>
-									<listOptionValue builtIn="false" value="../obj"/>
-									<listOptionValue builtIn="false" value="../platform"/>
 									<listOptionValue builtIn="false" value="../src"/>
-									<listOptionValue builtIn="false" value="../tests"/>
 								</option>
-								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1521698557" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.418192523" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
-							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release.1791717014" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release">
-								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1018199471" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release.2115923758" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.620014842" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
 								</inputType>
 							</tool>
-							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release.589423897" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release.1826752563" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release"/>
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Debug/googleTestLib"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Debug/googleTestLib/gtest"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Debug/src"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Debug/tests"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="googleTestLib"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="googleTestLib/gtest"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="include"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="l1"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="obj"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="platform"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="tests"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
 		</cconfiguration>
 	</storageModule>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-		<project id="TirePressureProject_CGen.cdt.managedbuild.target.gnu.mingw.exe.96866856" name="Executable" projectType="cdt.managedbuild.target.gnu.mingw.exe"/>
+		<project id="TirePressureProject_CGen.cdt.managedbuild.target.gnu.mingw.exe.1980718655" name="Executable" projectType="cdt.managedbuild.target.gnu.mingw.exe"/>
 	</storageModule>
-	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
-	<storageModule moduleId="refreshScope"/>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.659506874;cdt.managedbuild.config.gnu.mingw.exe.release.659506874.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1255674594;cdt.managedbuild.tool.gnu.c.compiler.input.926943133">
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.957039487;cdt.managedbuild.config.gnu.mingw.exe.release.957039487.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1613059745;cdt.managedbuild.tool.gnu.c.compiler.input.418192523">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.1049611462;cdt.managedbuild.config.gnu.mingw.exe.release.1049611462.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1336828568;cdt.managedbuild.tool.gnu.c.compiler.input.1349151">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.1124006402;cdt.managedbuild.config.gnu.mingw.exe.release.1124006402.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.642303027;cdt.managedbuild.tool.gnu.c.compiler.input.364743758">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.1142538549;cdt.managedbuild.config.gnu.mingw.exe.release.1142538549.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.422634658;cdt.managedbuild.tool.gnu.c.compiler.input.1232957286">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.132647745;cdt.managedbuild.config.gnu.mingw.exe.debug.132647745.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1811381916;cdt.managedbuild.tool.gnu.c.compiler.input.2015154209">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.643970378;cdt.managedbuild.config.gnu.mingw.exe.release.643970378.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1919669568;cdt.managedbuild.tool.gnu.c.compiler.input.1541181059">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.977866661;cdt.managedbuild.config.gnu.mingw.exe.debug.977866661.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1561022409;cdt.managedbuild.tool.gnu.c.compiler.input.1611643662">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.286410723;cdt.managedbuild.config.gnu.mingw.exe.debug.286410723.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.133230161;cdt.managedbuild.tool.gnu.c.compiler.input.1929823102">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.377720865;cdt.managedbuild.config.gnu.mingw.exe.debug.377720865.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.75511789;cdt.managedbuild.tool.gnu.c.compiler.input.1111932041">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.274599838;cdt.managedbuild.config.gnu.mingw.exe.debug.274599838.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.892321642;cdt.managedbuild.tool.gnu.c.compiler.input.923369507">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.535382277;cdt.managedbuild.config.gnu.mingw.exe.debug.535382277.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.202570832;cdt.managedbuild.tool.gnu.c.compiler.input.1136948372">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.384144272;cdt.managedbuild.config.gnu.mingw.exe.debug.384144272.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.126083424;cdt.managedbuild.tool.gnu.c.compiler.input.2142218332">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.204390676;cdt.managedbuild.config.gnu.mingw.exe.release.204390676.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.108057181;cdt.managedbuild.tool.gnu.c.compiler.input.2138236515">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.1799387331;cdt.managedbuild.config.gnu.mingw.exe.debug.1799387331.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.672844491;cdt.managedbuild.tool.gnu.c.compiler.input.2090739483">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.783864084;cdt.managedbuild.config.gnu.mingw.exe.debug.783864084.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.873132795;cdt.managedbuild.tool.gnu.c.compiler.input.45899065">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.1430284875;cdt.managedbuild.config.gnu.mingw.exe.release.1430284875.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1350792399;cdt.managedbuild.tool.gnu.c.compiler.input.1855588175">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.513828172;cdt.managedbuild.config.gnu.mingw.exe.debug.513828172.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1332800429;cdt.managedbuild.tool.gnu.c.compiler.input.990146792">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.421623801;cdt.managedbuild.config.gnu.mingw.exe.debug.421623801.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.929062168;cdt.managedbuild.tool.gnu.c.compiler.input.269559052">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.1989915932;cdt.managedbuild.config.gnu.mingw.exe.debug.1989915932.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1158380118;cdt.managedbuild.tool.gnu.c.compiler.input.1055126175">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.736260695;cdt.managedbuild.config.gnu.mingw.exe.debug.736260695.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1878159183;cdt.managedbuild.tool.gnu.c.compiler.input.1725478933">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.256057071;cdt.managedbuild.config.gnu.mingw.exe.release.256057071.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.293182987;cdt.managedbuild.tool.gnu.c.compiler.input.1828253349">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.483768180;cdt.managedbuild.config.gnu.mingw.exe.debug.483768180.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1406645030;cdt.managedbuild.tool.gnu.c.compiler.input.654888237">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.1468175;cdt.managedbuild.config.gnu.mingw.exe.release.1468175.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1891270959;cdt.managedbuild.tool.gnu.c.compiler.input.302027448">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.889704448;cdt.managedbuild.config.gnu.mingw.exe.release.889704448.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.112564283;cdt.managedbuild.tool.gnu.c.compiler.input.561065238">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.1936143265;cdt.managedbuild.config.gnu.mingw.exe.debug.1936143265.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1929325920;cdt.managedbuild.tool.gnu.c.compiler.input.2123901946">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.362224431;cdt.managedbuild.config.gnu.mingw.exe.release.362224431.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.261478929;cdt.managedbuild.tool.gnu.c.compiler.input.2113803665">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.1793874397;cdt.managedbuild.config.gnu.mingw.exe.release.1793874397.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.879874674;cdt.managedbuild.tool.gnu.c.compiler.input.1470280802">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.286470599;cdt.managedbuild.config.gnu.mingw.exe.release.286470599.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1802776806;cdt.managedbuild.tool.gnu.c.compiler.input.1805201378">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.869466671;cdt.managedbuild.config.gnu.mingw.exe.release.869466671.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.623562455;cdt.managedbuild.tool.gnu.c.compiler.input.366816457">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.114581221;cdt.managedbuild.config.gnu.mingw.exe.debug.114581221.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.541031362;cdt.managedbuild.tool.gnu.c.compiler.input.1698313964">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.2005797180;cdt.managedbuild.config.gnu.mingw.exe.debug.2005797180.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1825564759;cdt.managedbuild.tool.gnu.c.compiler.input.1970241693">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.1250617655;cdt.managedbuild.config.gnu.mingw.exe.release.1250617655.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.998368309;cdt.managedbuild.tool.gnu.c.compiler.input.1751411746">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.1070943356;cdt.managedbuild.config.gnu.mingw.exe.debug.1070943356.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.733950047;cdt.managedbuild.tool.gnu.c.compiler.input.2063865956">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.374209837;cdt.managedbuild.config.gnu.mingw.exe.release.374209837.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1239136592;cdt.managedbuild.tool.gnu.c.compiler.input.2008324798">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.55699256;cdt.managedbuild.config.gnu.mingw.exe.release.55699256.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1735016838;cdt.managedbuild.tool.gnu.c.compiler.input.1378022367">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.606383777;cdt.managedbuild.config.gnu.mingw.exe.release.606383777.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.844537367;cdt.managedbuild.tool.gnu.c.compiler.input.46058517">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.183265616;cdt.managedbuild.config.gnu.mingw.exe.release.183265616.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.910547996;cdt.managedbuild.tool.gnu.c.compiler.input.1648311860">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.1524133910;cdt.managedbuild.config.gnu.mingw.exe.debug.1524133910.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.65366606;cdt.managedbuild.tool.gnu.c.compiler.input.819331646">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.1373192222;cdt.managedbuild.config.gnu.mingw.exe.debug.1373192222.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.270032998;cdt.managedbuild.tool.gnu.c.compiler.input.215994876">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.904237723;cdt.managedbuild.config.gnu.mingw.exe.release.904237723.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1148056041;cdt.managedbuild.tool.gnu.c.compiler.input.2076452326">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.1527449026;cdt.managedbuild.config.gnu.mingw.exe.debug.1527449026.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1264401039;cdt.managedbuild.tool.gnu.c.compiler.input.1806362628">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.8526032;cdt.managedbuild.config.gnu.mingw.exe.debug.8526032.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.116142663;cdt.managedbuild.tool.gnu.c.compiler.input.752066106">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.124648251;cdt.managedbuild.config.gnu.mingw.exe.debug.124648251.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.229935896;cdt.managedbuild.tool.gnu.c.compiler.input.173977944">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.219443866;cdt.managedbuild.config.gnu.mingw.exe.release.219443866.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.57853029;cdt.managedbuild.tool.gnu.c.compiler.input.820005076">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.1290797735;cdt.managedbuild.config.gnu.mingw.exe.release.1290797735.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.776906879;cdt.managedbuild.tool.gnu.c.compiler.input.1020958792">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.4582948;cdt.managedbuild.config.gnu.mingw.exe.debug.4582948.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1155859728;cdt.managedbuild.tool.gnu.c.compiler.input.2000686739">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.1481937742;cdt.managedbuild.config.gnu.mingw.exe.debug.1481937742.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1502320654;cdt.managedbuild.tool.gnu.c.compiler.input.1271627224">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.929527971;cdt.managedbuild.config.gnu.mingw.exe.debug.929527971.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.186440725;cdt.managedbuild.tool.gnu.c.compiler.input.1167720796">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.281698379;cdt.managedbuild.config.gnu.mingw.exe.debug.281698379.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1545012561;cdt.managedbuild.tool.gnu.c.compiler.input.1768754652">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.961486477;cdt.managedbuild.config.gnu.mingw.exe.release.961486477.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.532033258;cdt.managedbuild.tool.gnu.c.compiler.input.299301127">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.485542325;cdt.managedbuild.config.gnu.mingw.exe.debug.485542325.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1782804439;cdt.managedbuild.tool.gnu.c.compiler.input.1109436771">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.763418639;cdt.managedbuild.config.gnu.mingw.exe.release.763418639.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1918495551;cdt.managedbuild.tool.gnu.c.compiler.input.482129623">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.2035373111;cdt.managedbuild.config.gnu.mingw.exe.release.2035373111.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.831418218;cdt.managedbuild.tool.gnu.c.compiler.input.994554079">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.1411511389;cdt.managedbuild.config.gnu.mingw.exe.release.1411511389.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1713871908;cdt.managedbuild.tool.gnu.c.compiler.input.1406110652">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.549204784;cdt.managedbuild.config.gnu.mingw.exe.debug.549204784.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.2111989245;cdt.managedbuild.tool.gnu.c.compiler.input.620605835">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.1051847955;cdt.managedbuild.config.gnu.mingw.exe.release.1051847955.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.2038931598;cdt.managedbuild.tool.gnu.c.compiler.input.474183008">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.337963441;cdt.managedbuild.config.gnu.mingw.exe.release.337963441.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.2042818678;cdt.managedbuild.tool.gnu.c.compiler.input.1479923612">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.876205922;cdt.managedbuild.config.gnu.mingw.exe.release.876205922.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1616186175;cdt.managedbuild.tool.gnu.c.compiler.input.1616627914">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.849581755;cdt.managedbuild.config.gnu.mingw.exe.release.849581755.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.2131279454;cdt.managedbuild.tool.gnu.c.compiler.input.1587437716">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.1358940029;cdt.managedbuild.config.gnu.mingw.exe.release.1358940029.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1431268176;cdt.managedbuild.tool.gnu.c.compiler.input.1439729127">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.1973435315;cdt.managedbuild.config.gnu.mingw.exe.release.1973435315.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.49280469;cdt.managedbuild.tool.gnu.c.compiler.input.136219713">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.354778729;cdt.managedbuild.config.gnu.mingw.exe.release.354778729.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.2051200636;cdt.managedbuild.tool.gnu.c.compiler.input.1521698557">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.1870347794;cdt.managedbuild.config.gnu.mingw.exe.debug.1870347794.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1828331871;cdt.managedbuild.tool.gnu.c.compiler.input.1593516137">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.1159990110;cdt.managedbuild.config.gnu.mingw.exe.release.1159990110.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.846539456;cdt.managedbuild.tool.gnu.c.compiler.input.1107266427">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.1322729384;cdt.managedbuild.config.gnu.mingw.exe.debug.1322729384.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.372721627;cdt.managedbuild.tool.gnu.c.compiler.input.394204361">
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.1193418236;cdt.managedbuild.config.gnu.mingw.exe.debug.1193418236.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.290581846;cdt.managedbuild.tool.gnu.c.compiler.input.43256051">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 </cproject>

@@ -2,7 +2,6 @@ application {
 	class components.lib.IntegratorTest
 	class components.lib.diffCheck
 	class components.Component
-	class components.lib.statemaschine
 }
 schedule {
 	startup {

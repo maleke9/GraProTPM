@@ -14,6 +14,7 @@
 #include "components_Component_Automatic.h"
 #include "components_lib_Integrator_Automatic.l1.h"
 #include "components_lib_NoiseGenerator_Automatic.l1.h"
+#include "components_SoundOutStateMaschine_Automatic.l1.h"
 
 /**
  * local variables object structure 
@@ -29,6 +30,8 @@ struct L1_components_Component_Automatic_Obj {
 	struct L1_components_lib_NoiseGenerator_Automatic_Obj* NoiseGenerator_instance_2;
 	struct L1_components_lib_NoiseGenerator_Automatic_Obj* NoiseGenerator_instance_3;
 	struct L1_components_lib_NoiseGenerator_Automatic_Obj* NoiseGenerator_instance_4;
+	struct L1_components_SoundOutStateMaschine_Automatic_Obj* SoundOutStateMaschine_instance;
+	struct L1_components_SoundOutStateMaschine_Automatic_Obj* SoundOutStateMaschine_instance_2;
 	scalarWrapper_Obj* vflA;
 	scalarWrapper_Obj* vflC;
 	scalarWrapper_Obj* vflM;
@@ -40,6 +43,7 @@ struct L1_components_Component_Automatic_Obj {
  **/
 typedef struct {
 	ASDObjectHeader objectHeader;
+	scalarWrapper_Obj* reset;
 } L1_components_Component_Automatic_Class;
 
 extern L1_components_Component_Automatic_Class L1_components_Component_Automatic_ClassObj;

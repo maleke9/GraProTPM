@@ -9,8 +9,8 @@ static class percentCompareTest {
 
 	@Test
 	public void testPerCompNormal() {
-		real x = pc.calc(9.4, 10.0);
-		Assert.assertTrue(x == -0.06);
+		real x = pc.calc(9.5, 10.0);
+		Assert.assertTrue(x == -0.05);
 	}
 	
 	@Test
@@ -20,22 +20,20 @@ static class percentCompareTest {
 	}
 	
 	@Test
-	public void testNoiseNegativeAvg() {
-		real x = pc.calc(9.4, -10.0);
-		Assert.assertTrue(x == -1.94);
+	public void testPerCompNegativeAvg() {
+		real x = pc.calc(9.5, -10.0);
+		Assert.assertTrue(x == -1.95);
 	}
 	
 	@Test
-	public void testNoiseZeroVal() {
+	public void testPerCompZeroVal() {
 		real x = pc.calc(0.0, 10.0);
 		Assert.assertTrue(x == -1.0);
 	}
 	
 	@Test
 	public void testNoiseZeroAvg() {
-		// TODO: Teilen durch 0?
-		//xx
 		real x = pc.calc(9.4, 0.0);
-		Assert.assertTrue(x == -1.51);
+		Assert.assertTrue(x == 0.0);
 	}
 }

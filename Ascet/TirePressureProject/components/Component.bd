@@ -2,7 +2,7 @@ classType components.Component
 blockdiagramSpecification Main {
 	methodBody calc {
 		outPin active {
-			connection_38, connection_40, connection_42, connection_44, connection_53, connection_62, connection_64, connection_66, connection_68, connection_74, connection_76, connection_78, connection_80, connection_86, connection_90, connection_94, connection_126, connection_129, connection_132
+			connection_38, connection_40, connection_42, connection_44, connection_53, connection_62, connection_64, connection_66, connection_68, connection_74, connection_76, connection_78, connection_80, connection_86, connection_94, connection_126, connection_129, connection_132, connection_148, connection_153
 		}
 	}
 	simpleIdentifier components.veloCar.vfl at (-279, 105) {
@@ -423,7 +423,7 @@ blockdiagramSpecification Main {
 			bendpoints (0, 70)
 		}
 		outPin {
-			connection_91, connection_87
+			connection_149, connection_87
 		}
 	}
 	simpleIdentifier components.pressureError.err at (661, 545) {
@@ -431,25 +431,6 @@ blockdiagramSpecification Main {
 		inPin connection_87
 		sequenceCall {
 			inPin connection_86
-		}
-	}
-	complexIdentifier components.lib.statemaschine at (741, 651) size (14, 8) {
-		label at (0, 1)
-		methodCall components.lib.statemaschine.calc {
-			methodVoidPin at (top, 0) sequenceCall at (-24, -30) {
-				inPin connection_89
-			}
-		}
-	}
-	if at (661, 611) {
-		inPin connection_91 {
-			bendpoints (10, 0)
-		}
-		ifControlFlowOutPin {
-			connection_89
-		}
-		sequenceCall {
-			inPin connection_90
 		}
 	}
 	addition at (-239, 56) {
@@ -648,6 +629,56 @@ blockdiagramSpecification Main {
 		label at (0, -1)
 		outPin {
 			connection_131
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	ifElse at (651, 201) {
+		inPin connection_149
+		ifControlFlowOutPin {
+			connection_150
+		}
+		elseControlFlowOutPin {
+			connection_151
+		}
+		sequenceCall {
+			inPin connection_148
+		}
+	}
+	complexIdentifier SoundOutStateMaschine_instance_2 at (751, 201) size (14, 20) {
+		label at (0, 1)
+		methodCall components.SoundOutStateMaschine.soundOutStateMaschineStatemachineTrigger {
+			methodVoidPin at (top, 0) sequenceCall at (-14, -36) {
+				inPin connection_150 {
+					bendpoints (20, 0), (20, -46)
+				}
+			}
+		}
+		elementCall (components.SoundOutStateMaschine.deltaTime) {
+			argumentPin at (left, 9) connection_154
+			sequenceCall {
+				inPin connection_153
+			}
+		}
+		elementCall (components.SoundOutStateMaschine.lampOn) {
+			argumentPin at (left, 15) connection_152
+			sequenceCall {
+				inPin connection_151 {
+					bendpoints (0, 100)
+				}
+			}
+		}
+	}
+	literal Boolean "false" at (671, 353) size (49, 0) {
+		outPin {
+			connection_152
+		}
+	}
+	simpleIdentifier deltatime at (681, 295) {
+		label at (0, -1)
+		inPin outPin {
+			connection_154
 		}
 		sequenceCall {
 			inPin

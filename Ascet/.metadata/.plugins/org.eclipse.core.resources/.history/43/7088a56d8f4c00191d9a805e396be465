@@ -1,0 +1,46 @@
+package tests;
+
+import assertLib.Assert;
+import components.SoundOutStateMaschine;
+
+static class StateMachineTest {
+
+SoundOutStateMaschine machine;
+
+		@Test
+	public void testStateLampAfterSec() {
+		integer lampCount = 0; 
+		integer loopCount = 0; 
+		boolean temp = false;
+		
+		machine.soundOutStateMaschineStatemachineTrigger();
+		
+		while(loopCount < 1000000||lampCount == 9){
+			temp = machine.lampOn;
+			if(machine.lampOn && !temp){
+				lampCount= lampCount +1;
+			}
+			loopCount = loopCount +1;
+		}
+		Assert.assertTrue(lampCount ==9);
+
+	}
+		@Test
+	public void testOFDiffCheckInBoundPositive() {
+	
+
+		Assert.assertFalse(diffCheck.calc(0.0005));	
+	}
+		@Test
+	public void testOFDiffCheckInBoundNegative() {
+	
+
+		Assert.assertFalse(diffCheck.calc(-0.0005));
+	
+	}
+			@Test
+	public void testOFDiffCheckLower() {
+			Assert.assertTrue(diffCheck.calc(-0.005));
+	
+	}
+}

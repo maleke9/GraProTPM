@@ -13,13 +13,13 @@ static class IntegratorTest {
 	@Test
 	public void testIntegratorNormal() {
 		integ1.integrate(50.0, 10.0);
-		Assert.assertTrue(integ1.outVal() == 2000.0);
+		Assert.assertTrue(integ1.outVal() == 500.0);
 	}
 	
 	@Test
 	public void testIntegratorNegative() {
 		integ2.integrate(-50.0, 10.0);
-		Assert.assertTrue(integ2.outVal() == -2000.0);
+		Assert.assertTrue(integ2.outVal() == -500.0);
 	}
 	
 	@Test
@@ -35,7 +35,7 @@ static class IntegratorTest {
 		integ4.integrate(1.0, 10.0);
 		integ4.integrate(3.0, 10.0);
 		
-		Assert.assertTrue(integ3.outVal() == 440.0);
+		Assert.assertTrue(integ4.outVal() == 110.0);
 	}
 	
 }

@@ -7,7 +7,7 @@ blockdiagramSpecification Main {
 	}
 	methodBody outVal {
 		outPin active {
-			connection_8
+			connection_10, connection_8
 		}
 	}
 	simpleIdentifier memory at (361, 145) {
@@ -75,6 +75,38 @@ blockdiagramSpecification Main {
 		inPin connection_9
 		sequenceCall {
 			inPin connection_8
+		}
+	}
+	if at (181, 241) {
+		inPin connection_11
+		ifControlFlowOutPin {
+			connection_12
+		}
+		sequenceCall {
+			inPin connection_10
+		}
+	}
+	simpleIdentifier components.Component.reset at (101, 245) {
+		label at (0, -1)
+		outPin {
+			connection_11
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier memory at (351, 285) {
+		label at (0, -1)
+		inPin connection_13
+		outPin sequenceCall {
+			inPin connection_12 {
+				bendpoints (50, 0), (50, 20)
+			}
+		}
+	}
+	literal Numeric "0.0" at (241, 283) size (49, 0) {
+		outPin {
+			connection_13
 		}
 	}
 }

@@ -4,7 +4,6 @@ type SoundOutStateMaschineStatemachineStates is enum {
 	stateLampShort,
 	stateLampOff,
 	stateLampLong,
-	off,
 	waitstate
 };
 
@@ -14,6 +13,7 @@ class SoundOutStateMaschine {
 	real time = 0.0;
 	integer countShort = 0;
 	integer countLong = 0;
+	@set
 	boolean lampOn = false;
 
 	@generated("statemachine")
@@ -46,8 +46,8 @@ class SoundOutStateMaschine {
 				time = time + deltaTime;
 			}
 			transition(time > 0.8) && (countShort == 3) && (countLong < 3) to stateLampLong;
-			transition countShort == 3 && countLong == 3 to off;
 			transition(time > 0.8) && (countShort < 3) to stateLampShort;
+			transition countShort == 3 && countLong == 3 to waitstate;
 		}
 
 		state stateLampLong {
@@ -68,15 +68,16 @@ class SoundOutStateMaschine {
 			transition time > 1.6 to stateLampOff;
 		}
 
-		state off {
-		}
-
 		state waitstate {
 			entry {
 				time = 0.0;
 			}
 			static {
 				time = time + deltaTime;
+			}
+			exit {
+				countShort = 0;
+				countLong = 0;
 			}
 			transition time > 1.0 to stateLampShort;
 		}
