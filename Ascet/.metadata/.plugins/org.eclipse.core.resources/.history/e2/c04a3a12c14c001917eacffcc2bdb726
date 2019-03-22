@@ -4,6 +4,7 @@ import assertLib.Assert;
 import components.lib.percentCompare;
 
 static class percentCompareTest {
+
 	percentCompare pc;
 
 	@Test

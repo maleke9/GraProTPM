@@ -37,4 +37,5 @@ static class IntegratorTest {
 		
 		Assert.assertTrue(integ4.outVal() == 110.0);
 	}
+	
 }
