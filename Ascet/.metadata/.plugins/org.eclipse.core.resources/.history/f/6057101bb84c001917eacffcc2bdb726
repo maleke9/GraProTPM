@@ -1,0 +1,36 @@
+classType components.lib.statemaschine
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin active {
+			connection_4, connection_5
+		}
+	}
+	simpleIdentifier components.Component.deltatime at (201, 195) {
+		label at (0, -1)
+		inPin outPin {
+			connection_6
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	complexIdentifier SoundOutStateMaschine_instance_2 at (301, 191) size (14, 8) {
+		label at (0, 1)
+		methodCall components.SoundOutStateMaschine.soundOutStateMaschineStatemachineTrigger {
+			methodVoidPin at (top, 0) sequenceCall at (-14, -36) {
+				inPin connection_4
+			}
+		}
+		elementCall (components.SoundOutStateMaschine.deltaTime) {
+			argumentPin at (left, 0) connection_6
+			sequenceCall {
+				inPin connection_5
+			}
+		}
+		elementCall (components.SoundOutStateMaschine.lampOn) {
+			argumentPin at (left, 1) sequenceCall {
+				inPin
+			}
+		}
+	}
+}

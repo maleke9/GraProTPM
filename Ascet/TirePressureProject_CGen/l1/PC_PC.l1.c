@@ -18,13 +18,12 @@
 void initClass_L1_PC_PC (L1_PC_PC_Class* _ASCET_class)
 {
     _ASCET_class->components_lib_IntegratorTest_Automatic = initInstance_L1_components_lib_IntegratorTest_Automatic();
-    _ASCET_class->components_lib_diffCheck_Automatic = initInstance_L1_components_lib_diffCheck_Automatic();
     _ASCET_class->components_Component_Automatic = initInstance_L1_components_Component_Automatic();
     _ASCET_class->components_veloCar_Automatic = initInstance_L1_components_veloCar_Automatic();
     _ASCET_class->components_distanceCar_Automatic = initInstance_L1_components_distanceCar_Automatic();
     _ASCET_class->components_diffWheel_Automatic = initInstance_L1_components_diffWheel_Automatic();
     _ASCET_class->components_pressureError_Automatic = initInstance_L1_components_pressureError_Automatic();
-    _ASCET_class->components_lib_statemaschine_Automatic = initInstance_L1_components_lib_statemaschine_Automatic();
+    _ASCET_class->components_lib_diffCheck_Automatic = initInstance_L1_components_lib_diffCheck_Automatic();
 }
 
 /**
@@ -64,7 +63,7 @@ static MethodList _ClassMethodList = {
 struct L1_PC_PC_Obj* L1_PC_PCInstance = NULL;
 
 static ASDClassHeader L1_PC_PC_ClassHeader = {
-	0, 2, 0, 8, &_ObjectMethodList, &_ClassMethodList
+	0, 2, 0, 7, &_ObjectMethodList, &_ClassMethodList
 };
 
 L1_PC_PC_Class L1_PC_PC_ClassObj = {{1, {&L1_PC_PC_ClassHeader}, {0}}};

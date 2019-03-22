@@ -1,0 +1,17 @@
+package tests;
+
+import assertLib.Assert;
+import components.lib.diffCheck;
+
+static class diffCheckTest {
+
+	@Test
+	public void testAverage() {
+	
+		Assert.assertTrue(diffCheck.calc(0.005));
+		Assert.assertFalse(diffCheck.calc(0.0005));
+		Assert.assertTrue(diffCheck.calc(0.05));
+		
+		
+	}
+}

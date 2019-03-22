@@ -2,8 +2,8 @@
 -I.
 -I"C:/Users/User/Desktop/GraProTPM/Ascet/TirePressureProject_CGen/include"
 -I"C:/Users/User/Desktop/GraProTPM/Ascet/TirePressureProject_CGen/src"
--I"C:/Users/User/Desktop/GraProTPM/Ascet/TirePressureProject_CGen/platform"
 -I"C:/Users/User/Desktop/GraProTPM/Ascet/TirePressureProject_CGen/l1"
+-I"C:/Users/User/Desktop/GraProTPM/Ascet/TirePressureProject_CGen/platform"
 -I"C:/ETAS/ASCET-DEVELOPER7.4/plugins/com.etas.rta_osek_1.0.4/rta/VRTA/inc"
 -I"C:/ETAS/ASCET-DEVELOPER7.4/configuration/org.eclipse.osgi/50/0/.cp/platform/rta_osek"
 -I"C:/Users/User/Desktop/GraProTPM/Ascet/TirePressureProject_CGen/platform"

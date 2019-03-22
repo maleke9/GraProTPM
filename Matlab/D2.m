@@ -22,8 +22,8 @@ plot(tv, vrr);
 title('v rear right');
 
 subplot(4,2,[7 8]);
-plot(tv, sw);
 title('steering wheel signal');
+plot(tv, sw);
 
 %Berechnung Kurvenradius bei Zeitpunkt allen Zeitpunkten
 %Rrl = (w+1)/(Vrr/Vrl)

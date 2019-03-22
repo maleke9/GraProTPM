@@ -14,8 +14,8 @@ P_OBJ=obj
 
 P_ADDITIONAL_INCLUDE=$(pathcnv SN,C:/Users/User/Desktop/GraProTPM/Ascet/TirePressureProject_CGen/include\
     C:/Users/User/Desktop/GraProTPM/Ascet/TirePressureProject_CGen/src\
-    C:/Users/User/Desktop/GraProTPM/Ascet/TirePressureProject_CGen/platform\
     C:/Users/User/Desktop/GraProTPM/Ascet/TirePressureProject_CGen/l1\
+    C:/Users/User/Desktop/GraProTPM/Ascet/TirePressureProject_CGen/platform\
     C:/ETAS/ASCET-DEVELOPER7.4/plugins/com.etas.rta_osek_1.0.4/rta/VRTA/inc\
     C:/ETAS/ASCET-DEVELOPER7.4/configuration/org.eclipse.osgi/50/0/.cp/platform/rta_osek\
     C:/Users/User/Desktop/GraProTPM/Ascet/TirePressureProject_CGen/platform)
@@ -31,7 +31,6 @@ OBJECTS=$(P_OBJ)/components_Component_Automatic.o\
     $(P_OBJ)/components_lib_Integrator_Automatic.o\
     $(P_OBJ)/components_lib_NoiseGenerator_Automatic.o\
     $(P_OBJ)/components_lib_percentCompare_Automatic.o\
-    $(P_OBJ)/components_lib_statemaschine_Automatic.o\
     $(P_OBJ)/components_pressureError_Automatic.o\
     $(P_OBJ)/components_SoundOutStateMaschine_Automatic.o\
     $(P_OBJ)/components_veloCar_Automatic.o\
@@ -39,15 +38,14 @@ OBJECTS=$(P_OBJ)/components_Component_Automatic.o\
     $(P_OBJ)/PC_PC.l1.o\
     $(P_OBJ)/components_lib_IntegratorTest_Automatic.l1.o\
     $(P_OBJ)/components_lib_Integrator_Automatic.l1.o\
-    $(P_OBJ)/components_lib_diffCheck_Automatic.l1.o\
     $(P_OBJ)/components_Component_Automatic.l1.o\
     $(P_OBJ)/components_lib_NoiseGenerator_Automatic.l1.o\
+    $(P_OBJ)/components_SoundOutStateMaschine_Automatic.l1.o\
     $(P_OBJ)/components_veloCar_Automatic.l1.o\
     $(P_OBJ)/components_distanceCar_Automatic.l1.o\
     $(P_OBJ)/components_diffWheel_Automatic.l1.o\
     $(P_OBJ)/components_pressureError_Automatic.l1.o\
-    $(P_OBJ)/components_lib_statemaschine_Automatic.l1.o\
-    $(P_OBJ)/components_SoundOutStateMaschine_Automatic.l1.o\
+    $(P_OBJ)/components_lib_diffCheck_Automatic.l1.o\
     $(P_OBJ)/etasConfigTask.o\
     $(P_OBJ)/etasL1Isr.o\
     $(P_OBJ)/etasL1Task.o\
@@ -124,10 +122,6 @@ $(P_OBJ)/components_lib_percentCompare_Automatic.o: src/components_lib_percentCo
 	echo compiling [C:\Users\User\Desktop\GraProTPM\Ascet\TirePressureProject_CGen\src\components_lib_percentCompare_Automatic.c]
 	@$(CC) $(call CC_INPUT,$(P_OBJ)/components_lib_percentCompare_Automatic.o src/components_lib_percentCompare_Automatic.c)
 
-$(P_OBJ)/components_lib_statemaschine_Automatic.o: src/components_lib_statemaschine_Automatic.c $(P_OBJ) $(CC_OPTIONS_FILE)
-	echo compiling [C:\Users\User\Desktop\GraProTPM\Ascet\TirePressureProject_CGen\src\components_lib_statemaschine_Automatic.c]
-	@$(CC) $(call CC_INPUT,$(P_OBJ)/components_lib_statemaschine_Automatic.o src/components_lib_statemaschine_Automatic.c)
-
 $(P_OBJ)/components_pressureError_Automatic.o: src/components_pressureError_Automatic.c $(P_OBJ) $(CC_OPTIONS_FILE)
 	echo compiling [C:\Users\User\Desktop\GraProTPM\Ascet\TirePressureProject_CGen\src\components_pressureError_Automatic.c]
 	@$(CC) $(call CC_INPUT,$(P_OBJ)/components_pressureError_Automatic.o src/components_pressureError_Automatic.c)
@@ -156,10 +150,6 @@ $(P_OBJ)/components_lib_Integrator_Automatic.l1.o: l1/components_lib_Integrator_
 	echo compiling [C:\Users\User\Desktop\GraProTPM\Ascet\TirePressureProject_CGen\l1\components_lib_Integrator_Automatic.l1.c]
 	@$(CC) $(call CC_INPUT,$(P_OBJ)/components_lib_Integrator_Automatic.l1.o l1/components_lib_Integrator_Automatic.l1.c)
 
-$(P_OBJ)/components_lib_diffCheck_Automatic.l1.o: l1/components_lib_diffCheck_Automatic.l1.c $(P_OBJ) $(CC_OPTIONS_FILE)
-	echo compiling [C:\Users\User\Desktop\GraProTPM\Ascet\TirePressureProject_CGen\l1\components_lib_diffCheck_Automatic.l1.c]
-	@$(CC) $(call CC_INPUT,$(P_OBJ)/components_lib_diffCheck_Automatic.l1.o l1/components_lib_diffCheck_Automatic.l1.c)
-
 $(P_OBJ)/components_Component_Automatic.l1.o: l1/components_Component_Automatic.l1.c $(P_OBJ) $(CC_OPTIONS_FILE)
 	echo compiling [C:\Users\User\Desktop\GraProTPM\Ascet\TirePressureProject_CGen\l1\components_Component_Automatic.l1.c]
 	@$(CC) $(call CC_INPUT,$(P_OBJ)/components_Component_Automatic.l1.o l1/components_Component_Automatic.l1.c)
@@ -167,6 +157,10 @@ $(P_OBJ)/components_Component_Automatic.l1.o: l1/components_Component_Automatic.
 $(P_OBJ)/components_lib_NoiseGenerator_Automatic.l1.o: l1/components_lib_NoiseGenerator_Automatic.l1.c $(P_OBJ) $(CC_OPTIONS_FILE)
 	echo compiling [C:\Users\User\Desktop\GraProTPM\Ascet\TirePressureProject_CGen\l1\components_lib_NoiseGenerator_Automatic.l1.c]
 	@$(CC) $(call CC_INPUT,$(P_OBJ)/components_lib_NoiseGenerator_Automatic.l1.o l1/components_lib_NoiseGenerator_Automatic.l1.c)
+
+$(P_OBJ)/components_SoundOutStateMaschine_Automatic.l1.o: l1/components_SoundOutStateMaschine_Automatic.l1.c $(P_OBJ) $(CC_OPTIONS_FILE)
+	echo compiling [C:\Users\User\Desktop\GraProTPM\Ascet\TirePressureProject_CGen\l1\components_SoundOutStateMaschine_Automatic.l1.c]
+	@$(CC) $(call CC_INPUT,$(P_OBJ)/components_SoundOutStateMaschine_Automatic.l1.o l1/components_SoundOutStateMaschine_Automatic.l1.c)
 
 $(P_OBJ)/components_veloCar_Automatic.l1.o: l1/components_veloCar_Automatic.l1.c $(P_OBJ) $(CC_OPTIONS_FILE)
 	echo compiling [C:\Users\User\Desktop\GraProTPM\Ascet\TirePressureProject_CGen\l1\components_veloCar_Automatic.l1.c]
@@ -184,13 +178,9 @@ $(P_OBJ)/components_pressureError_Automatic.l1.o: l1/components_pressureError_Au
 	echo compiling [C:\Users\User\Desktop\GraProTPM\Ascet\TirePressureProject_CGen\l1\components_pressureError_Automatic.l1.c]
 	@$(CC) $(call CC_INPUT,$(P_OBJ)/components_pressureError_Automatic.l1.o l1/components_pressureError_Automatic.l1.c)
 
-$(P_OBJ)/components_lib_statemaschine_Automatic.l1.o: l1/components_lib_statemaschine_Automatic.l1.c $(P_OBJ) $(CC_OPTIONS_FILE)
-	echo compiling [C:\Users\User\Desktop\GraProTPM\Ascet\TirePressureProject_CGen\l1\components_lib_statemaschine_Automatic.l1.c]
-	@$(CC) $(call CC_INPUT,$(P_OBJ)/components_lib_statemaschine_Automatic.l1.o l1/components_lib_statemaschine_Automatic.l1.c)
-
-$(P_OBJ)/components_SoundOutStateMaschine_Automatic.l1.o: l1/components_SoundOutStateMaschine_Automatic.l1.c $(P_OBJ) $(CC_OPTIONS_FILE)
-	echo compiling [C:\Users\User\Desktop\GraProTPM\Ascet\TirePressureProject_CGen\l1\components_SoundOutStateMaschine_Automatic.l1.c]
-	@$(CC) $(call CC_INPUT,$(P_OBJ)/components_SoundOutStateMaschine_Automatic.l1.o l1/components_SoundOutStateMaschine_Automatic.l1.c)
+$(P_OBJ)/components_lib_diffCheck_Automatic.l1.o: l1/components_lib_diffCheck_Automatic.l1.c $(P_OBJ) $(CC_OPTIONS_FILE)
+	echo compiling [C:\Users\User\Desktop\GraProTPM\Ascet\TirePressureProject_CGen\l1\components_lib_diffCheck_Automatic.l1.c]
+	@$(CC) $(call CC_INPUT,$(P_OBJ)/components_lib_diffCheck_Automatic.l1.o l1/components_lib_diffCheck_Automatic.l1.c)
 
 $(P_OBJ)/etasConfigTask.o: C:/ETAS/ASCET-DEVELOPER7.4/configuration/org.eclipse.osgi/50/0/.cp/platform/code/etasConfigTask.c $(P_OBJ) $(CC_OPTIONS_FILE)
 	echo compiling [C:\ETAS\ASCET-DEVELOPER7.4\configuration\org.eclipse.osgi\50\0\.cp\platform\code\etasConfigTask.c]

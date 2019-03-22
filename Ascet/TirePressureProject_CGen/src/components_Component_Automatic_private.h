@@ -15,6 +15,7 @@
  ******************************************************************************/
 #define average_instance_VAL average_instance_components_Component
 #define average_instance_REF &(average_instance_components_Component)
+#define components_Component_reset_VAL components_Component_reset
 #define Integrator_instance_VAL components_Component.Integrator_instance
 #define Integrator_instance_REF &(components_Component.Integrator_instance)
 #define Integrator_instance1_VAL components_Component.Integrator_instance1
@@ -45,6 +46,10 @@
 #define NoiseGenerator_instance_3_REF &(components_Component.NoiseGenerator_instance_3)
 #define NoiseGenerator_instance_4_VAL components_Component.NoiseGenerator_instance_4
 #define NoiseGenerator_instance_4_REF &(components_Component.NoiseGenerator_instance_4)
+#define SoundOutStateMaschine_instance_VAL components_Component.SoundOutStateMaschine_instance
+#define SoundOutStateMaschine_instance_REF &(components_Component.SoundOutStateMaschine_instance)
+#define SoundOutStateMaschine_instance_2_VAL components_Component.SoundOutStateMaschine_instance_2
+#define SoundOutStateMaschine_instance_2_REF &(components_Component.SoundOutStateMaschine_instance_2)
 /* ****************************************************************************
  * END: DEFINITION OF ACCESS MACROS
  ******************************************************************************/
